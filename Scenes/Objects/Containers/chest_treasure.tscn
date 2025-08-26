@@ -1,0 +1,123 @@
+[gd_scene load_steps=11 format=3 uid="uid://cfye28731b543"]
+
+[ext_resource type="PackedScene" uid="uid://bipdnyrxfynkc" path="res://Scenes/Objects/Containers/chest.tscn" id="1_mkql2"]
+[ext_resource type="Script" path="res://Scenes/Objects/Containers/chest_treasure.gd" id="2_lfhbi"]
+[ext_resource type="Texture2D" uid="uid://c2f4hmv32aaut" path="res://Art/Objects/Containers/Chest 1.png" id="2_q5sl2"]
+[ext_resource type="Shader" uid="uid://d3jwne6amm57y" path="res://Hit_flash.tres" id="3_lli8y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1j4yc"]
+size = Vector2(138, 16)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kqob0"]
+resource_local_to_scene = true
+shader = ExtResource("3_lli8y")
+shader_parameter/Enabled = false
+shader_parameter/Tint = Color(1, 1, 1, 1)
+
+[sub_resource type="Animation" id="Animation_001c5"]
+resource_name = "Hit"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1.3), Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_b473l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_wxb5q"]
+resource_name = "Destroy"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1.3), Vector2(1, 1)]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_anqj6"]
+_data = {
+"Destroy": SubResource("Animation_wxb5q"),
+"Hit": SubResource("Animation_001c5"),
+"RESET": SubResource("Animation_b473l")
+}
+
+[node name="Chest_treasure" instance=ExtResource("1_mkql2")]
+script = ExtResource("2_lfhbi")
+hp = 75
+
+[node name="CollisionShape2D" parent="." index="0"]
+shape = SubResource("RectangleShape2D_1j4yc")
+
+[node name="Sprite2D" parent="." index="1"]
+material = SubResource("ShaderMaterial_kqob0")
+texture = ExtResource("2_q5sl2")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+libraries = {
+"": SubResource("AnimationLibrary_anqj6")
+}

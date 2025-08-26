@@ -1,0 +1,283 @@
+[gd_scene load_steps=38 format=3 uid="uid://cmnbx5khjk6ly"]
+
+[ext_resource type="PackedScene" uid="uid://b68lnufel74ij" path="res://Scenes/Levels/Lower_deck/simple_room.tscn" id="1_lscdp"]
+[ext_resource type="PackedScene" uid="uid://ddrbeydyisqu2" path="res://Scenes/Objects/Decor/stool.tscn" id="2_wfhrv"]
+[ext_resource type="PackedScene" uid="uid://brmfb35udmywl" path="res://Scenes/Objects/Decor/bench.tscn" id="3_0tkad"]
+[ext_resource type="Texture2D" uid="uid://bhvdarqnifpav" path="res://Art/Objects/Decor/Carpets/Rug_poor_1.png" id="4_pw8ng"]
+[ext_resource type="Texture2D" uid="uid://dca6ouvhj05" path="res://Art/Objects/Decor/Carpets/Rug_poor_2.png" id="5_3vcc4"]
+[ext_resource type="PackedScene" uid="uid://cm4id118b7b5y" path="res://Scenes/Objects/Decor/Bed/bed.tscn" id="6_qgbeq"]
+[ext_resource type="PackedScene" uid="uid://cw5s5bhrujg6r" path="res://Scenes/Objects/Decor/cabin_2.tscn" id="7_faixi"]
+[ext_resource type="PackedScene" uid="uid://wda1he5addmu" path="res://Scenes/Objects/Decor/cabin_1.tscn" id="8_6146b"]
+[ext_resource type="PackedScene" uid="uid://gxrwppcmonx6" path="res://Scenes/Objects/Decor/table.tscn" id="9_pfp0d"]
+[ext_resource type="Texture2D" uid="uid://ibgr4c3ch1va" path="res://Art/Objects/Decor/Misc/Beer.png" id="10_v3rme"]
+[ext_resource type="Texture2D" uid="uid://bf4fpm6l85r0w" path="res://Art/Objects/Decor/Misc/Big mug.png" id="11_6fmhb"]
+[ext_resource type="Texture2D" uid="uid://csn86g68rqnon" path="res://Art/Objects/Decor/Misc/Small mug.png" id="12_2noak"]
+[ext_resource type="Texture2D" uid="uid://cs5i07fjak1ig" path="res://Art/Objects/Decor/Misc/Plate.png" id="13_kshrb"]
+[ext_resource type="Texture2D" uid="uid://di88fu0w12gqr" path="res://Art/Objects/Decor/Misc/Spoon.png" id="14_54m4f"]
+[ext_resource type="PackedScene" uid="uid://573rv2a4l0tm" path="res://Scenes/Objects/wanted.tscn" id="15_xir1p"]
+[ext_resource type="Texture2D" uid="uid://bgtuge8aj7xan" path="res://Art/Objects/Decor/Misc/Clothes.png" id="16_qlneo"]
+[ext_resource type="PackedScene" uid="uid://c4yxi3ttt7qiw" path="res://Scenes/Objects/Decor/wardrobe.tscn" id="17_o068j"]
+[ext_resource type="PackedScene" uid="uid://b0s32sfdjabfr" path="res://Scenes/Objects/Decor/Bed/Bed 2.tscn" id="18_xn8vl"]
+[ext_resource type="PackedScene" uid="uid://mavvp0jpjpoi" path="res://Scenes/Objects/Decor/long_table.tscn" id="19_nd64u"]
+[ext_resource type="PackedScene" uid="uid://dodib7og0li7e" path="res://Scenes/Objects/Decor/round_table_2.tscn" id="20_rgjxv"]
+[ext_resource type="PackedScene" uid="uid://bc5g7trufrm2d" path="res://Scenes/Objects/Decor/round_table_1.tscn" id="21_uatt6"]
+[ext_resource type="Texture2D" uid="uid://cas07we53i0rd" path="res://Art/Objects/Decor/Misc/Rum.png" id="22_tvvkc"]
+[ext_resource type="Texture2D" uid="uid://cxuyjli1ng3pu" path="res://Art/Objects/Decor/Misc/Small bottle plug.png" id="23_7j2g3"]
+[ext_resource type="Texture2D" uid="uid://bhin7xdjaggpt" path="res://Art/Objects/Decor/Misc/Small bottle.png" id="24_0qeng"]
+[ext_resource type="Texture2D" uid="uid://c215kbhknmf5p" path="res://Art/Objects/Decor/Misc/Map.png" id="25_ev8pb"]
+[ext_resource type="Texture2D" uid="uid://crfxqj6qwbs08" path="res://Art/Objects/Decor/Misc/Dagger 2.png" id="26_atb84"]
+[ext_resource type="Texture2D" uid="uid://cs68v2ejff4dd" path="res://Art/Objects/Decor/Misc/Broom.png" id="27_klvq4"]
+[ext_resource type="Texture2D" uid="uid://cej6faqw2cdtf" path="res://Art/Objects/Decor/Cards/Card pile 1.png" id="28_64m6g"]
+[ext_resource type="Texture2D" uid="uid://028v86o8enr7" path="res://Art/Objects/Decor/Cards/Hand back 1.png" id="29_yxg7l"]
+[ext_resource type="Texture2D" uid="uid://dfi5ughjq5e6n" path="res://Art/Objects/Decor/Cards/Hand front 1.png" id="30_1jmv6"]
+[ext_resource type="PackedScene" uid="uid://ds8vnq4aylsjj" path="res://Scenes/Objects/Decor/bucket.tscn" id="31_b8dfb"]
+[ext_resource type="PackedScene" uid="uid://cn3ugklubxqku" path="res://Scenes/Objects/Light/lantern_no_hook.tscn" id="32_syol8"]
+[ext_resource type="PackedScene" uid="uid://c7kjq5701lfnm" path="res://Scenes/Objects/Light/lantern_with_hook_3.tscn" id="33_yup4x"]
+[ext_resource type="PackedScene" uid="uid://kj46302doqf6" path="res://Scenes/Objects/Containers/wooden_box.tscn" id="34_ccfrj"]
+[ext_resource type="PackedScene" uid="uid://bks8sfdt4c3d5" path="res://Scenes/Objects/Containers/barrel.tscn" id="35_00vji"]
+[ext_resource type="PackedScene" uid="uid://cxraq8slpd0jy" path="res://Scenes/Enemies/bombling.tscn" id="36_m7qg2"]
+[ext_resource type="PackedScene" uid="uid://xwhp1d4yoqq6" path="res://Scenes/Enemies/drunk_crew.tscn" id="37_l04mw"]
+
+[node name="Simple_Room_1" instance=ExtResource("1_lscdp")]
+
+[node name="RugPoor1" type="Sprite2D" parent="." index="2"]
+position = Vector2(-532, -481)
+texture = ExtResource("4_pw8ng")
+
+[node name="RugPoor3" type="Sprite2D" parent="." index="3"]
+position = Vector2(521, 653)
+rotation = 0.0425207
+texture = ExtResource("4_pw8ng")
+
+[node name="RugPoor2" type="Sprite2D" parent="." index="4"]
+position = Vector2(512, -463)
+texture = ExtResource("5_3vcc4")
+
+[node name="Stool" parent="Decor" index="0" instance=ExtResource("2_wfhrv")]
+position = Vector2(408, -319)
+
+[node name="Bench" parent="Decor" index="1" instance=ExtResource("3_0tkad")]
+position = Vector2(-300, 216)
+
+[node name="Bed" parent="Decor" index="2" instance=ExtResource("6_qgbeq")]
+position = Vector2(-716, -632)
+
+[node name="Bed2" parent="Decor" index="3" instance=ExtResource("6_qgbeq")]
+position = Vector2(-433, -632)
+
+[node name="Cabin 2" parent="Decor" index="4" instance=ExtResource("7_faixi")]
+position = Vector2(-582, -738)
+
+[node name="Bed3" parent="Decor" index="5" instance=ExtResource("6_qgbeq")]
+position = Vector2(448, -632)
+
+[node name="Bed4" parent="Decor" index="6" instance=ExtResource("6_qgbeq")]
+position = Vector2(731, -632)
+
+[node name="Cabin 1" parent="Decor" index="7" instance=ExtResource("8_6146b")]
+position = Vector2(582, -738)
+
+[node name="Table" parent="Decor" index="8" instance=ExtResource("9_pfp0d")]
+position = Vector2(-248, -742)
+
+[node name="Beer" type="Sprite2D" parent="Decor/Table" index="2"]
+position = Vector2(-83, -9)
+texture = ExtResource("10_v3rme")
+
+[node name="BigMug" type="Sprite2D" parent="Decor/Table" index="3"]
+position = Vector2(-63, 24)
+texture = ExtResource("11_6fmhb")
+
+[node name="SmallMug" type="Sprite2D" parent="Decor/Table" index="4"]
+position = Vector2(-88, 45)
+texture = ExtResource("12_2noak")
+
+[node name="Plate" type="Sprite2D" parent="Decor/Table" index="5"]
+position = Vector2(3, 56)
+texture = ExtResource("13_kshrb")
+
+[node name="Spoon" type="Sprite2D" parent="Decor/Table" index="6"]
+position = Vector2(44, 55)
+texture = ExtResource("14_54m4f")
+
+[node name="Wanted" parent="Decor" index="9" instance=ExtResource("15_xir1p")]
+position = Vector2(-68, -746)
+
+[node name="Clothes" type="Sprite2D" parent="Decor/Wanted" index="2"]
+position = Vector2(68, -5)
+texture = ExtResource("16_qlneo")
+
+[node name="Wardrobe" parent="Decor" index="10" instance=ExtResource("17_o068j")]
+position = Vector2(305, -749)
+
+[node name="Bed 2" parent="Decor" index="11" instance=ExtResource("18_xn8vl")]
+position = Vector2(-444, 706)
+
+[node name="Bed 3" parent="Decor" index="12" instance=ExtResource("18_xn8vl")]
+position = Vector2(-170, 706)
+
+[node name="Bed 4" parent="Decor" index="13" instance=ExtResource("18_xn8vl")]
+position = Vector2(170, 706)
+
+[node name="Bed 5" parent="Decor" index="14" instance=ExtResource("18_xn8vl")]
+position = Vector2(550, 706)
+
+[node name="Long table" parent="Decor" index="15" instance=ExtResource("19_nd64u")]
+position = Vector2(-305, 127)
+
+[node name="Table2" parent="Decor" index="16" instance=ExtResource("9_pfp0d")]
+position = Vector2(376, -404)
+
+[node name="Round table 2" parent="Decor" index="17" instance=ExtResource("20_rgjxv")]
+position = Vector2(726, -195)
+
+[node name="Round table 1" parent="Decor" index="18" instance=ExtResource("21_uatt6")]
+position = Vector2(415, 714)
+
+[node name="Rum" type="Sprite2D" parent="Decor" index="19"]
+position = Vector2(-448, 133)
+texture = ExtResource("22_tvvkc")
+
+[node name="SmallBottlePlug" type="Sprite2D" parent="Decor" index="20"]
+position = Vector2(-177, 143)
+texture = ExtResource("23_7j2g3")
+
+[node name="SmallBottle" type="Sprite2D" parent="Decor" index="21"]
+position = Vector2(-197, 161)
+texture = ExtResource("24_0qeng")
+
+[node name="SmallMug" type="Sprite2D" parent="Decor" index="22"]
+position = Vector2(-418, 177)
+texture = ExtResource("12_2noak")
+
+[node name="SmallMug2" type="Sprite2D" parent="Decor" index="23"]
+position = Vector2(-391, 192)
+texture = ExtResource("12_2noak")
+
+[node name="Map" type="Sprite2D" parent="Decor" index="24"]
+position = Vector2(-312, 168)
+texture = ExtResource("25_ev8pb")
+
+[node name="Dagger2" type="Sprite2D" parent="Decor" index="25"]
+position = Vector2(-289, 179)
+texture = ExtResource("26_atb84")
+
+[node name="Broom" type="Sprite2D" parent="Decor" index="26"]
+position = Vector2(-124, 213)
+rotation = -0.557203
+texture = ExtResource("27_klvq4")
+
+[node name="CardPile1" type="Sprite2D" parent="Decor" index="27"]
+position = Vector2(397, -371)
+texture = ExtResource("28_64m6g")
+
+[node name="HandBack1" type="Sprite2D" parent="Decor" index="28"]
+position = Vector2(383, -344)
+texture = ExtResource("29_yxg7l")
+
+[node name="HandFront1" type="Sprite2D" parent="Decor" index="29"]
+position = Vector2(457, -376)
+rotation = -1.73724
+texture = ExtResource("30_1jmv6")
+
+[node name="BigMug" type="Sprite2D" parent="Decor" index="30"]
+position = Vector2(628, -756)
+texture = ExtResource("11_6fmhb")
+
+[node name="Bucket" parent="Decor" index="31" instance=ExtResource("31_b8dfb")]
+position = Vector2(644, -649)
+
+[node name="Lantern_no hook" parent="Practical light" index="0" instance=ExtResource("32_syol8")]
+position = Vector2(-243, 139)
+
+[node name="Lantern_no hook2" parent="Practical light" index="1" instance=ExtResource("32_syol8")]
+position = Vector2(406, 710)
+
+[node name="Lantern_no hook3" parent="Practical light" index="2" instance=ExtResource("32_syol8")]
+position = Vector2(718, -227)
+
+[node name="Lantern_no hook4" parent="Practical light" index="3" instance=ExtResource("32_syol8")]
+position = Vector2(540, -767)
+
+[node name="Lantern_no hook5" parent="Practical light" index="4" instance=ExtResource("32_syol8")]
+position = Vector2(-185, -748)
+
+[node name="Lantern_no hook6" parent="Practical light" index="5" instance=ExtResource("32_syol8")]
+position = Vector2(-580, -762)
+
+[node name="Lantern_no hook7" parent="Practical light" index="6" instance=ExtResource("32_syol8")]
+position = Vector2(312, -362)
+
+[node name="Lantern_with hook 3" parent="Practical light" index="7" instance=ExtResource("33_yup4x")]
+position = Vector2(-330, 779)
+
+[node name="Lantern_with hook 4" parent="Practical light" index="8" instance=ExtResource("33_yup4x")]
+position = Vector2(1, 779)
+
+[node name="Wooden_box" parent="Crates" index="0" instance=ExtResource("34_ccfrj")]
+position = Vector2(-719, 707)
+
+[node name="Wooden_box2" parent="Crates" index="1" instance=ExtResource("34_ccfrj")]
+position = Vector2(707, -6)
+
+[node name="Wooden_box3" parent="Crates" index="2" instance=ExtResource("34_ccfrj")]
+position = Vector2(563, 66)
+
+[node name="Wooden_box4" parent="Crates" index="3" instance=ExtResource("34_ccfrj")]
+position = Vector2(683, 117)
+
+[node name="Wooden_box5" parent="Crates" index="4" instance=ExtResource("34_ccfrj")]
+position = Vector2(-594, 710)
+
+[node name="Wooden_box5" parent="Crates/Wooden_box5" index="4" instance=ExtResource("34_ccfrj")]
+position = Vector2(255, -898)
+
+[node name="Wooden_box6" parent="Crates/Wooden_box5" index="5" instance=ExtResource("34_ccfrj")]
+position = Vector2(184, -808)
+
+[node name="Wooden_box7" parent="Crates/Wooden_box5" index="6" instance=ExtResource("34_ccfrj")]
+position = Vector2(322, -803)
+
+[node name="Barrel" parent="Crates" index="5" instance=ExtResource("35_00vji")]
+position = Vector2(186, -709)
+
+[node name="Barrel2" parent="Crates" index="6" instance=ExtResource("35_00vji")]
+position = Vector2(141, -690)
+
+[node name="Barrel3" parent="Crates" index="7" instance=ExtResource("35_00vji")]
+position = Vector2(212, -685)
+
+[node name="Barrel4" parent="Crates" index="8" instance=ExtResource("35_00vji")]
+position = Vector2(583, 131)
+
+[node name="Barrel5" parent="Crates" index="9" instance=ExtResource("35_00vji")]
+position = Vector2(252, -297)
+
+[node name="Barrel6" parent="Crates" index="10" instance=ExtResource("35_00vji")]
+position = Vector2(-747, 162)
+
+[node name="Barrel7" parent="Crates" index="11" instance=ExtResource("35_00vji")]
+position = Vector2(-684, 203)
+
+[node name="Barrel9" parent="Crates" index="12" instance=ExtResource("35_00vji")]
+position = Vector2(741, 740)
+
+[node name="Barrel10" parent="Crates" index="13" instance=ExtResource("35_00vji")]
+position = Vector2(658, 740)
+
+[node name="Barrel8" parent="Crates" index="14" instance=ExtResource("35_00vji")]
+position = Vector2(-748, 224)
+
+[node name="Bombling2" parent="Enemies" index="0" instance=ExtResource("36_m7qg2")]
+position = Vector2(517, 418)
+
+[node name="Bombling3" parent="Enemies" index="1" instance=ExtResource("36_m7qg2")]
+position = Vector2(600, -565)
+
+[node name="Bombling4" parent="Enemies" index="2" instance=ExtResource("36_m7qg2")]
+position = Vector2(-703, -419)
+
+[node name="Drunk_crew" parent="Enemies" index="3" instance=ExtResource("37_l04mw")]
+
+[node name="Destroy props" parent="." index="10"]
+visible = false

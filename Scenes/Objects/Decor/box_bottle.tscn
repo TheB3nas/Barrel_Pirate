@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4ewb1ur5eriy"]
+
+[ext_resource type="Texture2D" uid="uid://thokujkel012" path="res://Art/Objects/Decor/Furniture/Box bottle.png" id="1_5nuy0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_752lp"]
+size = Vector2(69, 20)
+
+[node name="Box Bottle" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_752lp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2)
+texture = ExtResource("1_5nuy0")

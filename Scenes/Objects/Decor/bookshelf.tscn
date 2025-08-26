@@ -1,0 +1,143 @@
+[gd_scene load_steps=16 format=3 uid="uid://ddrjau1ogpu52"]
+
+[ext_resource type="Script" path="res://Bookshelf.gd" id="1_egxwk"]
+[ext_resource type="Texture2D" uid="uid://gnsq6d86hmdl" path="res://Art/Objects/Decor/Furniture/Bookshelf.png" id="2_c3eaa"]
+[ext_resource type="Texture2D" uid="uid://byja8jq1g8r3" path="res://Art/Objects/Decor/Furniture/Books (1).png" id="3_auxpg"]
+[ext_resource type="Texture2D" uid="uid://lrpus3kvwaue" path="res://Art/Objects/Decor/Furniture/Books (2).png" id="4_586yk"]
+[ext_resource type="Texture2D" uid="uid://cv5g83afg52ny" path="res://Art/Objects/Decor/Furniture/Books (3).png" id="5_abjql"]
+[ext_resource type="Texture2D" uid="uid://bq8000dte2r0d" path="res://Art/Objects/Decor/Furniture/Books (4).png" id="6_8yafb"]
+[ext_resource type="Texture2D" uid="uid://cyvj16tcr525s" path="res://Art/Objects/Decor/Furniture/Books (5).png" id="7_510if"]
+[ext_resource type="Texture2D" uid="uid://cee7iineo6acq" path="res://Art/Objects/Decor/Furniture/Books (6).png" id="8_vkh6i"]
+[ext_resource type="Texture2D" uid="uid://c5ytlgbtxcgd7" path="res://Art/Objects/Decor/Furniture/Books (7).png" id="9_5imsx"]
+[ext_resource type="Texture2D" uid="uid://dd2f46temvohq" path="res://Art/Objects/Decor/Furniture/Books (8).png" id="10_53xvl"]
+[ext_resource type="Texture2D" uid="uid://cgnclh8a48r5w" path="res://Art/Objects/Decor/Furniture/Books (9).png" id="11_bq443"]
+[ext_resource type="Texture2D" uid="uid://p3s61evks3nr" path="res://Art/Objects/Decor/Furniture/Books (10).png" id="12_u1uiw"]
+[ext_resource type="Texture2D" uid="uid://tgtom675frfd" path="res://Art/Objects/Decor/Furniture/Books (11).png" id="13_t2byb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_csc02"]
+size = Vector2(124, 79)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gywke"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_auxpg")
+}],
+"loop": false,
+"name": &"Shelf1",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_586yk")
+}],
+"loop": false,
+"name": &"Shelf2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_abjql")
+}],
+"loop": true,
+"name": &"Shelf3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_8yafb")
+}],
+"loop": true,
+"name": &"Shelf4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_510if")
+}],
+"loop": true,
+"name": &"Shelf5",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_vkh6i")
+}],
+"loop": true,
+"name": &"Shelf6",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_5imsx")
+}],
+"loop": true,
+"name": &"Shelf7",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_53xvl")
+}],
+"loop": true,
+"name": &"Shelf8",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_bq443")
+}],
+"loop": true,
+"name": &"Shelf9",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_u1uiw")
+}],
+"loop": true,
+"name": &"Shelf91",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_t2byb")
+}],
+"loop": true,
+"name": &"Shelf92",
+"speed": 5.0
+}]
+
+[node name="Bookshelf" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 35
+script = ExtResource("1_egxwk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -51.5)
+shape = SubResource("RectangleShape2D_csc02")
+
+[node name="Bookshelf" type="Sprite2D" parent="."]
+texture = ExtResource("2_c3eaa")
+
+[node name="Shelfs" type="Node2D" parent="."]
+
+[node name="Shelf 1" type="AnimatedSprite2D" parent="Shelfs"]
+position = Vector2(-0.666667, -47.3333)
+sprite_frames = SubResource("SpriteFrames_gywke")
+animation = &"Shelf7"
+
+[node name="Shelf 2" type="AnimatedSprite2D" parent="Shelfs"]
+position = Vector2(-0.666667, -15.3333)
+sprite_frames = SubResource("SpriteFrames_gywke")
+animation = &"Shelf7"
+
+[node name="Shelf 3" type="AnimatedSprite2D" parent="Shelfs"]
+position = Vector2(-0.666667, 16)
+sprite_frames = SubResource("SpriteFrames_gywke")
+animation = &"Shelf7"
+
+[node name="Shelf 4" type="AnimatedSprite2D" parent="Shelfs"]
+position = Vector2(-0.666667, 49.3333)
+sprite_frames = SubResource("SpriteFrames_gywke")
+animation = &"Shelf7"

@@ -1,0 +1,270 @@
+[gd_scene load_steps=51 format=3 uid="uid://dpjcj5mdedkx0"]
+
+[ext_resource type="Texture2D" uid="uid://cuptl1rs21pwn" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00000.png" id="1_in7bw"]
+[ext_resource type="Texture2D" uid="uid://ska4n6t4gvig" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00001.png" id="2_nmmwv"]
+[ext_resource type="Texture2D" uid="uid://cf31cr4bes5yw" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00002.png" id="3_msanc"]
+[ext_resource type="Texture2D" uid="uid://dsn66wwm5lhg7" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00003.png" id="4_xyjrw"]
+[ext_resource type="Texture2D" uid="uid://ydx2gtmt36m7" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00004.png" id="5_7onpr"]
+[ext_resource type="Texture2D" uid="uid://bqkqdu2pjkfop" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00005.png" id="6_55byo"]
+[ext_resource type="Texture2D" uid="uid://cmhr6hk0q842w" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00006.png" id="7_d7cs8"]
+[ext_resource type="Texture2D" uid="uid://u6dlhfe12mxt" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00007.png" id="8_dmqfw"]
+[ext_resource type="Texture2D" uid="uid://tntk7qe7rumu" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00008.png" id="9_5ua08"]
+[ext_resource type="Texture2D" uid="uid://h3wwqr7rcuat" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00009.png" id="10_nqg4r"]
+[ext_resource type="Texture2D" uid="uid://dqfa223j74lau" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00010.png" id="11_yxro2"]
+[ext_resource type="Texture2D" uid="uid://cdvpyd28f241q" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00011.png" id="12_7tddk"]
+[ext_resource type="Texture2D" uid="uid://cdj7buye2ti16" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00012.png" id="13_5as4s"]
+[ext_resource type="Texture2D" uid="uid://3sxoxil2ktd" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00013.png" id="14_kyyoj"]
+[ext_resource type="Texture2D" uid="uid://bp5xp6tq34yi6" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00014.png" id="15_5n7cj"]
+[ext_resource type="Texture2D" uid="uid://d0rg4yadiriqk" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00015.png" id="16_rpmg7"]
+[ext_resource type="Texture2D" uid="uid://wn6dqtt0j52h" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00016.png" id="17_7yxut"]
+[ext_resource type="Texture2D" uid="uid://unj3efp5j7l2" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00017.png" id="18_4piu1"]
+[ext_resource type="Texture2D" uid="uid://uec404ffxcvf" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00018.png" id="19_qfgph"]
+[ext_resource type="Texture2D" uid="uid://ba6vmc6db21py" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00019.png" id="20_gvrv7"]
+[ext_resource type="Texture2D" uid="uid://c15jd6opk8tjy" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00020.png" id="21_i8jja"]
+[ext_resource type="Texture2D" uid="uid://b03de2eekdiia" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00021.png" id="22_gvb3s"]
+[ext_resource type="Texture2D" uid="uid://cu0i7c5v53u80" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00022.png" id="23_5d6mh"]
+[ext_resource type="Texture2D" uid="uid://dbiivuejrm5pb" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00023.png" id="24_tw04w"]
+[ext_resource type="Texture2D" uid="uid://b0yxxg04wtmi1" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00024.png" id="25_5giar"]
+[ext_resource type="Texture2D" uid="uid://css3imhwvo14h" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00025.png" id="26_kbya6"]
+[ext_resource type="Texture2D" uid="uid://cqnfodfgqpxfh" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00026.png" id="27_6vfjt"]
+[ext_resource type="Texture2D" uid="uid://bar2kfh46stl8" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00027.png" id="28_3wcpp"]
+[ext_resource type="Texture2D" uid="uid://ssls7fjynuni" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00028.png" id="29_ve8go"]
+[ext_resource type="Texture2D" uid="uid://cn2ru8fi6jk0" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00029.png" id="30_r0kfy"]
+[ext_resource type="Texture2D" uid="uid://ctpn58kt6gxb3" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00030.png" id="31_3aed0"]
+[ext_resource type="Texture2D" uid="uid://xwdhturgo31x" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00031.png" id="32_aacih"]
+[ext_resource type="Texture2D" uid="uid://bgjiysoqv3vxj" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00032.png" id="33_nqcog"]
+[ext_resource type="Texture2D" uid="uid://dprc55b8khm2x" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00033.png" id="34_awyoq"]
+[ext_resource type="Texture2D" uid="uid://bcomxv1ggnibg" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00034.png" id="35_e42yi"]
+[ext_resource type="Texture2D" uid="uid://48c8fvyaqcx5" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00035.png" id="36_t8lxa"]
+[ext_resource type="Texture2D" uid="uid://bn655m3cnqrnr" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00036.png" id="37_ipj56"]
+[ext_resource type="Texture2D" uid="uid://djjyn2ra7tttj" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00037.png" id="38_0wrwp"]
+[ext_resource type="Texture2D" uid="uid://1c838tiygd8h" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00038.png" id="39_pltvq"]
+[ext_resource type="Texture2D" uid="uid://dxsactst3t48s" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00039.png" id="40_6725w"]
+[ext_resource type="Texture2D" uid="uid://pagadpgllfmk" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00040.png" id="41_ehio5"]
+[ext_resource type="Texture2D" uid="uid://b4bsve6k4nyte" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00041.png" id="42_lrp8e"]
+[ext_resource type="Texture2D" uid="uid://dckyx453cesff" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00042.png" id="43_k21de"]
+[ext_resource type="Texture2D" uid="uid://blcpl4a5km6re" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00043.png" id="44_6xlwy"]
+[ext_resource type="Texture2D" uid="uid://ci37u7o28a8l6" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00044.png" id="45_mxwmo"]
+[ext_resource type="Texture2D" uid="uid://c1d7oewit266a" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00045.png" id="46_arflk"]
+[ext_resource type="Texture2D" uid="uid://c43o82t2cccir" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00046.png" id="47_1nsnr"]
+[ext_resource type="Texture2D" uid="uid://c2m41rru57beg" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00047.png" id="48_wbjyt"]
+[ext_resource type="Texture2D" uid="uid://bx6ajid447haq" path="res://Art/Powerups/Gods/Eldrich god/Eldrich god_00048.png" id="49_nwqf6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mjmhr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_in7bw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_nmmwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_msanc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xyjrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7onpr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_55byo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_d7cs8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_dmqfw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_5ua08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nqg4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_yxro2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_7tddk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_5as4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_kyyoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_5n7cj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rpmg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_7yxut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_4piu1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_qfgph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_gvrv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_i8jja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_gvb3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_5d6mh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tw04w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5giar")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_kbya6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_6vfjt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_3wcpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ve8go")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_r0kfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_3aed0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_aacih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_nqcog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_awyoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_e42yi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_t8lxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ipj56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_0wrwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_pltvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_6725w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ehio5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_lrp8e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_k21de")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_6xlwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_mxwmo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_arflk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_1nsnr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_wbjyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_nwqf6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 24.0
+}]
+
+[node name="Upgrade UI" type="CanvasLayer"]
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -424.0
+offset_top = -176.0
+offset_right = 424.0
+offset_bottom = 176.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer2"]
+custom_minimum_size = Vector2(2000, 1000)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+color = Color(0.266667, 0.141176, 0.235294, 0.654902)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="VBoxContainer"]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_mjmhr")
+autoplay = "default"
+frame_progress = 0.126465
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+anchors_preset = -1
+anchor_top = 0.395
+anchor_right = 0.241
+anchor_bottom = 0.605
+offset_left = 212.0
+offset_top = 0.0399933
+offset_right = 84.368
+offset_bottom = -0.0400085
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Button3" type="Button" parent="VBoxContainer3"]
+layout_mode = 2
+text = "Upgrade"
+
+[node name="Control" type="Control" parent="VBoxContainer3"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="Button4" type="Button" parent="VBoxContainer3"]
+layout_mode = 2
+text = "Upgrade"

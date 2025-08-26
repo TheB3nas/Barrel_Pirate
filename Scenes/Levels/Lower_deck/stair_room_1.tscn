@@ -1,0 +1,73 @@
+[gd_scene load_steps=9 format=3 uid="uid://be1odcbqpkjxk"]
+
+[ext_resource type="PackedScene" uid="uid://b68lnufel74ij" path="res://Scenes/Levels/Lower_deck/simple_room.tscn" id="1_jy27u"]
+[ext_resource type="PackedScene" uid="uid://573rv2a4l0tm" path="res://Scenes/Objects/wanted.tscn" id="2_1i8tv"]
+[ext_resource type="PackedScene" uid="uid://dimef2tltk5sq" path="res://Scenes/Objects/stairs.tscn" id="3_w67hl"]
+[ext_resource type="PackedScene" uid="uid://nsbuoxnvfuut" path="res://Scenes/Objects/Decor/barrel_shelf.tscn" id="4_8ff4w"]
+[ext_resource type="PackedScene" uid="uid://ddrjau1ogpu52" path="res://Scenes/Objects/Decor/bookshelf.tscn" id="5_v51y5"]
+[ext_resource type="PackedScene" uid="uid://cxraq8slpd0jy" path="res://Scenes/Enemies/bombling.tscn" id="6_7s3sx"]
+[ext_resource type="PackedScene" uid="uid://dm6jevwe2eg43" path="res://Scenes/Enemies/fish_gunner.tscn" id="7_f7j01"]
+[ext_resource type="PackedScene" uid="uid://xwhp1d4yoqq6" path="res://Scenes/Enemies/drunk_crew.tscn" id="8_hcveg"]
+
+[node name="Stair_Room_1" instance=ExtResource("1_jy27u")]
+
+[node name="Wanted" parent="Decor" index="0" instance=ExtResource("2_1i8tv")]
+position = Vector2(-224, -746)
+rotation = -0.279462
+
+[node name="Stairs" parent="Decor" index="1" instance=ExtResource("3_w67hl")]
+
+[node name="Barrel shelf" parent="Decor" index="2" instance=ExtResource("4_8ff4w")]
+position = Vector2(-244, -22)
+
+[node name="Barrel shelf2" parent="Decor" index="3" instance=ExtResource("4_8ff4w")]
+position = Vector2(239, -22)
+
+[node name="Bookshelf" parent="Decor" index="4" instance=ExtResource("5_v51y5")]
+position = Vector2(-714, -743)
+
+[node name="Bookshelf2" parent="Decor" index="5" instance=ExtResource("5_v51y5")]
+position = Vector2(710, -743)
+
+[node name="Bookshelf3" parent="Decor" index="6" instance=ExtResource("5_v51y5")]
+position = Vector2(313, -743)
+
+[node name="Bookshelf4" parent="Decor" index="7" instance=ExtResource("5_v51y5")]
+position = Vector2(188, -743)
+
+[node name="Bookshelf5" parent="Decor" index="8" instance=ExtResource("5_v51y5")]
+position = Vector2(-395, -743)
+
+[node name="Bookshelf6" parent="Decor" index="9" instance=ExtResource("5_v51y5")]
+position = Vector2(-271, -743)
+
+[node name="Wanted2" parent="Decor 2" index="0" instance=ExtResource("2_1i8tv")]
+position = Vector2(-38, -746)
+rotation = 0.200383
+
+[node name="Wanted3" parent="Decor 2" index="1" instance=ExtResource("2_1i8tv")]
+position = Vector2(15, -746)
+rotation = -0.0387075
+
+[node name="Bombling" parent="Enemies" index="0" instance=ExtResource("6_7s3sx")]
+position = Vector2(322, -428)
+
+[node name="Bombling2" parent="Enemies" index="1" instance=ExtResource("6_7s3sx")]
+position = Vector2(-53, 607)
+
+[node name="Bombling3" parent="Enemies" index="2" instance=ExtResource("6_7s3sx")]
+position = Vector2(-528, -373)
+
+[node name="Fish_Gunner" parent="Enemies" index="3" instance=ExtResource("7_f7j01")]
+position = Vector2(-272, 222)
+
+[node name="Fish_Gunner2" parent="Enemies" index="4" instance=ExtResource("7_f7j01")]
+position = Vector2(236, 230)
+
+[node name="Drunk_crew" parent="Enemies" index="5" instance=ExtResource("8_hcveg")]
+position = Vector2(2, 64)
+
+[node name="Destroy props" parent="." index="7"]
+visible = false
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true

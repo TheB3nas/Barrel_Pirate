@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://n64fqabgtppu"]
+
+[ext_resource type="Texture2D" uid="uid://comthnglw724o" path="res://Art/Objects/Decor/Furniture/Box Orange.png" id="1_rriw2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_752lp"]
+size = Vector2(69, 65)
+
+[node name="Box Orange" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_752lp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2)
+texture = ExtResource("1_rriw2")

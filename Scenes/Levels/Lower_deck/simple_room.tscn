@@ -1,0 +1,103 @@
+[gd_scene load_steps=5 format=3 uid="uid://b68lnufel74ij"]
+
+[ext_resource type="Script" path="res://Simple_Room.gd" id="1_ykagl"]
+[ext_resource type="TileSet" uid="uid://b37gf7q7u4e2d" path="res://Tilemaps/Ship_tiles_nav.tres" id="2_4j0f6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rhwei"]
+size = Vector2(637, 297)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gles1"]
+size = Vector2(1671.5, 178.001)
+
+[node name="Simple_Room" type="Node2D"]
+script = ExtResource("1_ykagl")
+
+[node name="Base" type="TileMap" parent="."]
+z_index = -1
+position = Vector2(125, 125)
+tile_set = ExtResource("2_4j0f6")
+format = 2
+layer_0/name = "Wall"
+layer_0/tile_data = PackedInt32Array(-131075, 65536, 1, -65539, 65536, 1, -3, 65536, 1, 65533, 65536, 1, 131069, 65536, 1, -131074, 65536, 1, -65538, 65536, 1, -2, 65536, 1, 65534, 65536, 1, 131070, 65536, 1, -131073, 65536, 1, -65537, 65536, 1, 65535, 65536, 1, 131071, 65536, 1, -196608, 65536, 1, -131072, 65536, 1, -65536, 65536, 1, 0, 65536, 1, 65536, 65536, 1, -196607, 65536, 1, -131071, 65536, 1, -65535, 65536, 1, 1, 65536, 1, 65537, 65536, 1, 196607, 65536, 2, -65534, 131072, 1, -196609, 65536, 0, -196610, 65536, 0, -196611, 65536, 0, -262144, 65536, 0, -262143, 65536, 0, -262142, 131072, 0, -196606, 131072, 1, -131070, 131072, 1, 131074, 131072, 2, 196604, 0, 2, 131068, 0, 1, 65532, 0, 1, -4, 0, 1, -65540, 0, 1, -131076, 0, 1, -196612, 0, 0, 196605, 65536, 2, 196606, 65536, 2, 131072, 65536, 2, 131073, 65536, 2, 65538, 131072, 1, 2, 131072, 1, -1, 65536, 1)
+layer_1/name = "BG"
+layer_1/tile_data = PackedInt32Array()
+layer_2/name = "Decor"
+layer_2/tile_data = PackedInt32Array(-3, 327680, 1, -65539, 327680, 1, -131075, 327680, 1, 65533, 327680, 1, 131069, 327680, 1, 65537, 327680, 1, 1, 327680, 1, -65535, 327680, 1, -131071, 327680, 1, -196607, 327680, 1, -196611, 327680, 0, -262143, 327680, 0, 196605, 327680, 2, 131073, 327680, 2)
+
+[node name="Lights" type="Node2D" parent="."]
+
+[node name="Decor" type="Node2D" parent="."]
+
+[node name="Practical light" type="Node2D" parent="."]
+
+[node name="Crates" type="Node2D" parent="."]
+
+[node name="Decor 2" type="Node2D" parent="."]
+
+[node name="Enemies" type="Node2D" parent="."]
+z_index = 1
+
+[node name="Destroy props" type="Node2D" parent="."]
+
+[node name="Up" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/Up"]
+position = Vector2(0, -688)
+shape = SubResource("RectangleShape2D_rhwei")
+
+[node name="Down" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/Down"]
+position = Vector2(-5, 690)
+shape = SubResource("RectangleShape2D_rhwei")
+
+[node name="Right" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/Right"]
+position = Vector2(687, 2)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_rhwei")
+
+[node name="Left" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/Left"]
+position = Vector2(-685, 2)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_rhwei")
+
+[node name="Right_big room" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/Right_big room"]
+position = Vector2(737.002, 1.75037)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_gles1")
+
+[node name="left_big room" type="Area2D" parent="Destroy props"]
+collision_layer = 16
+collision_mask = 72
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Destroy props/left_big room"]
+position = Vector2(-740, 1.75037)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_gles1")
+
+[connection signal="area_entered" from="Destroy props/Up" to="." method="_on_up_area_entered"]
+[connection signal="body_entered" from="Destroy props/Up" to="." method="_on_up_body_entered"]
+[connection signal="area_entered" from="Destroy props/Down" to="." method="_on_down_area_entered"]
+[connection signal="body_entered" from="Destroy props/Down" to="." method="_on_down_body_entered"]
+[connection signal="area_entered" from="Destroy props/Right" to="." method="_on_right_area_entered"]
+[connection signal="body_entered" from="Destroy props/Right" to="." method="_on_right_body_entered"]
+[connection signal="area_entered" from="Destroy props/Left" to="." method="_on_left_area_entered"]
+[connection signal="body_entered" from="Destroy props/Left" to="." method="_on_left_body_entered"]
+[connection signal="area_entered" from="Destroy props/Right_big room" to="." method="_on_right_big_room_area_entered"]
+[connection signal="area_entered" from="Destroy props/left_big room" to="." method="_on_left_big_room_area_entered"]

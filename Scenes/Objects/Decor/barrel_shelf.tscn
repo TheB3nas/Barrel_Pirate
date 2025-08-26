@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://nsbuoxnvfuut"]
+
+[ext_resource type="Texture2D" uid="uid://dixjutshi8xcq" path="res://Art/Objects/Decor/Furniture/Barrel shelf.png" id="1_qubam"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wk0lb"]
+size = Vector2(224, 99)
+
+[node name="Barrel shelf" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 35
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_wk0lb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 40)
+texture = ExtResource("1_qubam")

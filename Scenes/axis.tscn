@@ -1,0 +1,42 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhhrnq4aiul7y"]
+
+[ext_resource type="Script" path="res://Scenes/axis.gd" id="1_p0mkl"]
+
+[node name="Axis" type="Node2D"]
+script = ExtResource("1_p0mkl")
+
+[node name="N" type="RayCast2D" parent="."]
+target_position = Vector2(0, -100)
+collision_mask = 200
+
+[node name="NE" type="RayCast2D" parent="."]
+rotation = 0.785398
+target_position = Vector2(0, -70)
+collision_mask = 200
+
+[node name="E" type="RayCast2D" parent="."]
+target_position = Vector2(100, 0)
+collision_mask = 200
+
+[node name="SE" type="RayCast2D" parent="."]
+rotation = 0.785398
+target_position = Vector2(70, 0)
+collision_mask = 200
+
+[node name="S" type="RayCast2D" parent="."]
+target_position = Vector2(0, 100)
+collision_mask = 200
+
+[node name="SW" type="RayCast2D" parent="."]
+rotation = 0.785398
+target_position = Vector2(0, 70)
+collision_mask = 200
+
+[node name="W" type="RayCast2D" parent="."]
+target_position = Vector2(-100, 0)
+collision_mask = 200
+
+[node name="NW" type="RayCast2D" parent="."]
+rotation = 0.785398
+target_position = Vector2(-70, 0)
+collision_mask = 200

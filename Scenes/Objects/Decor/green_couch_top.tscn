@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://gu7f5tq0lkr0"]
+
+[ext_resource type="Texture2D" uid="uid://yo7in7sd1adn" path="res://Art/Objects/Decor/Furniture/Green couch top.png" id="1_1w10v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u0y8e"]
+size = Vector2(149, 93)
+
+[node name="Green couch top" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_u0y8e")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1w10v")

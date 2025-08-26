@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://xcxugo4gvd5"]
+
+[node name="Common_room" type="Node2D"]
+
+[node name="Lights" type="Node2D" parent="."]
+
+[node name="Decor" type="Node2D" parent="."]
+
+[node name="Practical light" type="Node2D" parent="."]
+
+[node name="Crates" type="Node2D" parent="."]
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Treasure" type="Node2D" parent="."]

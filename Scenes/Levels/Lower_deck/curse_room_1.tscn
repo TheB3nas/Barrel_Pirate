@@ -1,0 +1,219 @@
+[gd_scene load_steps=17 format=3 uid="uid://ds3dd1pc3v0w1"]
+
+[ext_resource type="PackedScene" uid="uid://b68lnufel74ij" path="res://Scenes/Levels/Lower_deck/simple_room.tscn" id="1_bv2gk"]
+[ext_resource type="PackedScene" uid="uid://bq1y5u45mi70r" path="res://Scenes/Objects/Decor/barrel_shelf_top.tscn" id="2_n8ew3"]
+[ext_resource type="Texture2D" uid="uid://6dqxjdc5ulwf" path="res://Art/Objects/Decor/Carpets/Rug_green.png" id="2_vagpu"]
+[ext_resource type="PackedScene" uid="uid://nsbuoxnvfuut" path="res://Scenes/Objects/Decor/barrel_shelf.tscn" id="3_3urjc"]
+[ext_resource type="PackedScene" uid="uid://bdmn1xlc2c5ng" path="res://Scenes/Objects/Decor/barrel_stack_3.tscn" id="4_p1h0a"]
+[ext_resource type="PackedScene" uid="uid://bxy1matyxrw75" path="res://Scenes/Objects/Decor/box_swords.tscn" id="5_osbhv"]
+[ext_resource type="PackedScene" uid="uid://j3gwdiag8pf2" path="res://Scenes/Objects/Decor/boat.tscn" id="6_x5xqo"]
+[ext_resource type="PackedScene" uid="uid://dkvo28w421ipw" path="res://Scenes/Objects/Decor/barrel_side.tscn" id="7_tax14"]
+[ext_resource type="PackedScene" uid="uid://cn3ugklubxqku" path="res://Scenes/Objects/Light/lantern_no_hook.tscn" id="8_8iivw"]
+[ext_resource type="PackedScene" uid="uid://kj46302doqf6" path="res://Scenes/Objects/Containers/wooden_box.tscn" id="9_tjgtc"]
+[ext_resource type="PackedScene" uid="uid://cn5gwbpoxmlp7" path="res://Scenes/Objects/Containers/chest_cursed.tscn" id="10_p1t0l"]
+[ext_resource type="PackedScene" uid="uid://bks8sfdt4c3d5" path="res://Scenes/Objects/Containers/barrel.tscn" id="11_4apcr"]
+[ext_resource type="PackedScene" uid="uid://b8khstqut1qy" path="res://Scenes/Objects/Containers/chest_common.tscn" id="12_opp5h"]
+[ext_resource type="PackedScene" uid="uid://bfv66o3l4qvnx" path="res://Scenes/Enemies/brute.tscn" id="14_sa3lq"]
+[ext_resource type="PackedScene" uid="uid://ciu34ujr62p7m" path="res://Scenes/Enemies/skelly.tscn" id="15_xu5qt"]
+[ext_resource type="PackedScene" uid="uid://dm6jevwe2eg43" path="res://Scenes/Enemies/fish_gunner.tscn" id="16_famrt"]
+
+[node name="Curse_room_1" instance=ExtResource("1_bv2gk")]
+
+[node name="RugGreen" type="Sprite2D" parent="." index="1"]
+position = Vector2(-11, 40)
+texture = ExtResource("2_vagpu")
+
+[node name="Barrel shelf top" parent="Decor" index="0" instance=ExtResource("2_n8ew3")]
+position = Vector2(-345, 779)
+
+[node name="Barrel shelf top2" parent="Decor" index="1" instance=ExtResource("2_n8ew3")]
+position = Vector2(355, 779)
+
+[node name="Barrel shelf" parent="Decor" index="2" instance=ExtResource("3_3urjc")]
+position = Vector2(-675, -776)
+
+[node name="Barrel shelf2" parent="Decor" index="3" instance=ExtResource("3_3urjc")]
+position = Vector2(673, -776)
+
+[node name="Barrel shelf3" parent="Decor" index="4" instance=ExtResource("3_3urjc")]
+position = Vector2(342, -776)
+
+[node name="Barrel shelf4" parent="Decor" index="5" instance=ExtResource("3_3urjc")]
+position = Vector2(-335, -776)
+
+[node name="Barrel stack 3" parent="Decor" index="6" instance=ExtResource("4_p1h0a")]
+position = Vector2(-177, -553)
+
+[node name="Barrel stack 4" parent="Decor" index="7" instance=ExtResource("4_p1h0a")]
+position = Vector2(701, 277)
+
+[node name="Barrel stack 5" parent="Decor" index="8" instance=ExtResource("4_p1h0a")]
+position = Vector2(-624, -92)
+
+[node name="Box Swords" parent="Decor" index="9" instance=ExtResource("5_osbhv")]
+position = Vector2(-238, -49)
+
+[node name="Box Swords2" parent="Decor" index="10" instance=ExtResource("5_osbhv")]
+position = Vector2(419, -689)
+
+[node name="Boat" parent="Decor/Box Swords2" index="2" instance=ExtResource("6_x5xqo")]
+position = Vector2(-635, 1115)
+
+[node name="Barrel side" parent="Decor" index="11" instance=ExtResource("7_tax14")]
+position = Vector2(-81, -499)
+
+[node name="Practical light" parent="." index="4"]
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="Lantern_no hook" parent="Practical light" index="0" instance=ExtResource("8_8iivw")]
+position = Vector2(-92, 96)
+
+[node name="Lantern_no hook2" parent="Practical light" index="1" instance=ExtResource("8_8iivw")]
+position = Vector2(115, 96)
+
+[node name="Wooden_box3" parent="Crates" index="0" instance=ExtResource("9_tjgtc")]
+position = Vector2(-9, -106)
+
+[node name="Wooden_box" parent="Crates" index="1" instance=ExtResource("9_tjgtc")]
+position = Vector2(-132, -57)
+
+[node name="Wooden_box4" parent="Crates" index="2" instance=ExtResource("9_tjgtc")]
+position = Vector2(-702, 350)
+
+[node name="Wooden_box5" parent="Crates" index="3" instance=ExtResource("9_tjgtc")]
+position = Vector2(-641, 462)
+
+[node name="Wooden_box6" parent="Crates" index="4" instance=ExtResource("9_tjgtc")]
+position = Vector2(99, -445)
+
+[node name="Wooden_box7" parent="Crates" index="5" instance=ExtResource("9_tjgtc")]
+position = Vector2(249, -405)
+
+[node name="Wooden_box8" parent="Crates" index="6" instance=ExtResource("9_tjgtc")]
+position = Vector2(126, -352)
+
+[node name="Wooden_box9" parent="Crates" index="7" instance=ExtResource("9_tjgtc")]
+position = Vector2(283, 407)
+
+[node name="Wooden_box10" parent="Crates" index="8" instance=ExtResource("9_tjgtc")]
+position = Vector2(179, 471)
+
+[node name="Wooden_box11" parent="Crates" index="9" instance=ExtResource("9_tjgtc")]
+position = Vector2(344, 475)
+
+[node name="Wooden_box2" parent="Crates" index="10" instance=ExtResource("9_tjgtc")]
+position = Vector2(84, -57)
+
+[node name="Chest_Cursed" parent="Crates" index="11" instance=ExtResource("10_p1t0l")]
+
+[node name="Barrel" parent="Crates" index="12" instance=ExtResource("11_4apcr")]
+position = Vector2(581, -646)
+
+[node name="Barrel2" parent="Crates" index="13" instance=ExtResource("11_4apcr")]
+position = Vector2(662, -646)
+
+[node name="Barrel3" parent="Crates" index="14" instance=ExtResource("11_4apcr")]
+position = Vector2(616, -612)
+
+[node name="Barrel4" parent="Crates" index="15" instance=ExtResource("11_4apcr")]
+position = Vector2(187, -687)
+
+[node name="Barrel5" parent="Crates" index="16" instance=ExtResource("11_4apcr")]
+position = Vector2(127, -662)
+
+[node name="Barrel6" parent="Crates" index="17" instance=ExtResource("11_4apcr")]
+position = Vector2(194, -656)
+
+[node name="Barrel8" parent="Crates" index="18" instance=ExtResource("11_4apcr")]
+position = Vector2(194, -656)
+
+[node name="Barrel7" parent="Crates" index="19" instance=ExtResource("11_4apcr")]
+position = Vector2(-108, -698)
+
+[node name="Barrel9" parent="Crates" index="20" instance=ExtResource("11_4apcr")]
+position = Vector2(-29, -701)
+
+[node name="Barrel10" parent="Crates" index="21" instance=ExtResource("11_4apcr")]
+position = Vector2(-63, -637)
+
+[node name="Barrel11" parent="Crates" index="22" instance=ExtResource("11_4apcr")]
+position = Vector2(-330, -659)
+
+[node name="Barrel12" parent="Crates" index="23" instance=ExtResource("11_4apcr")]
+position = Vector2(-251, -656)
+
+[node name="Barrel13" parent="Crates" index="24" instance=ExtResource("11_4apcr")]
+position = Vector2(-293, -619)
+
+[node name="Barrel14" parent="Crates" index="25" instance=ExtResource("11_4apcr")]
+position = Vector2(-753, -643)
+
+[node name="Barrel15" parent="Crates" index="26" instance=ExtResource("11_4apcr")]
+position = Vector2(-693, -618)
+
+[node name="Barrel16" parent="Crates" index="27" instance=ExtResource("11_4apcr")]
+position = Vector2(-128, -2)
+
+[node name="Barrel17" parent="Crates" index="28" instance=ExtResource("11_4apcr")]
+position = Vector2(-183, 17)
+
+[node name="Barrel18" parent="Crates" index="29" instance=ExtResource("11_4apcr")]
+position = Vector2(175, 17)
+
+[node name="Barrel19" parent="Crates" index="30" instance=ExtResource("11_4apcr")]
+position = Vector2(259, -13)
+
+[node name="Barrel20" parent="Crates" index="31" instance=ExtResource("11_4apcr")]
+position = Vector2(241, 44)
+
+[node name="Barrel24" parent="Crates" index="32" instance=ExtResource("11_4apcr")]
+position = Vector2(731, -295)
+
+[node name="Barrel25" parent="Crates" index="33" instance=ExtResource("11_4apcr")]
+position = Vector2(677, -270)
+
+[node name="Barrel26" parent="Crates" index="34" instance=ExtResource("11_4apcr")]
+position = Vector2(743, -249)
+
+[node name="Barrel21" parent="Crates" index="35" instance=ExtResource("11_4apcr")]
+position = Vector2(-378, -364)
+
+[node name="Barrel22" parent="Crates" index="36" instance=ExtResource("11_4apcr")]
+position = Vector2(-291, -358)
+
+[node name="Barrel23" parent="Crates" index="37" instance=ExtResource("11_4apcr")]
+position = Vector2(-342, -318)
+
+[node name="Chest_common" parent="Crates" index="38" instance=ExtResource("12_opp5h")]
+position = Vector2(295, -320)
+
+[node name="Chest_common2" parent="Crates" index="39" instance=ExtResource("12_opp5h")]
+position = Vector2(-711, -568)
+
+[node name="Brute" parent="Enemies" index="0" instance=ExtResource("14_sa3lq")]
+position = Vector2(-303, 119)
+
+[node name="Brute2" parent="Enemies" index="1" instance=ExtResource("14_sa3lq")]
+position = Vector2(350, 121)
+
+[node name="Brute3" parent="Enemies" index="2" instance=ExtResource("14_sa3lq")]
+position = Vector2(-50, -319)
+
+[node name="Skelly" parent="Enemies" index="3" instance=ExtResource("15_xu5qt")]
+position = Vector2(379, -123)
+
+[node name="Skelly2" parent="Enemies" index="4" instance=ExtResource("15_xu5qt")]
+position = Vector2(-366, -170)
+
+[node name="Skelly3" parent="Enemies" index="5" instance=ExtResource("15_xu5qt")]
+position = Vector2(5, 222)
+
+[node name="Fish_Gunner" parent="Enemies" index="6" instance=ExtResource("16_famrt")]
+position = Vector2(416, -471)
+
+[node name="Fish_Gunner2" parent="Enemies" index="7" instance=ExtResource("16_famrt")]
+position = Vector2(-343, -526)
+
+[node name="Destroy props" parent="." index="8"]
+visible = false

@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4yxi3ttt7qiw"]
+
+[ext_resource type="Texture2D" uid="uid://ceqaax2kkvxyi" path="res://Art/Objects/Decor/Furniture/Wardrobe.png" id="1_h4pwi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gbu1y"]
+size = Vector2(134, 82)
+
+[node name="Wardrobe" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 35
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_h4pwi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -42)
+shape = SubResource("RectangleShape2D_gbu1y")

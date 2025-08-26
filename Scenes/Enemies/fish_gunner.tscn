@@ -1,0 +1,3562 @@
+[gd_scene load_steps=515 format=3 uid="uid://dm6jevwe2eg43"]
+
+[ext_resource type="Script" path="res://Scenes/Enemies/fish_gunner.gd" id="1_qjjec"]
+[ext_resource type="Texture2D" uid="uid://dwpmi8p2a3avu" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00000.png" id="2_l061a"]
+[ext_resource type="Texture2D" uid="uid://dxufslti5bdq2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00001.png" id="3_ncge8"]
+[ext_resource type="Texture2D" uid="uid://78xxrewpdjug" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00002.png" id="4_6tt0s"]
+[ext_resource type="Texture2D" uid="uid://ddm77fyylfgo3" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00003.png" id="5_t5jfe"]
+[ext_resource type="Texture2D" uid="uid://bkwrvh6y1rfkt" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00004.png" id="6_hveto"]
+[ext_resource type="Texture2D" uid="uid://cstfbdx25eh2x" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00005.png" id="7_fdunr"]
+[ext_resource type="Texture2D" uid="uid://bhq6tgoliwi82" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00006.png" id="8_iehgt"]
+[ext_resource type="Texture2D" uid="uid://c4polj4vrnl1o" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00007.png" id="9_ibq14"]
+[ext_resource type="Texture2D" uid="uid://d3rw0d8gspkg2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00008.png" id="10_fs6wa"]
+[ext_resource type="Texture2D" uid="uid://o03mfbnvlela" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00009.png" id="11_vmhxy"]
+[ext_resource type="Texture2D" uid="uid://dc256pobvjoef" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00010.png" id="12_i1ljm"]
+[ext_resource type="Texture2D" uid="uid://cm0tvxkuk0dba" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00011.png" id="13_nlpn1"]
+[ext_resource type="Texture2D" uid="uid://cswaro35lv8x4" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00012.png" id="14_gmcw3"]
+[ext_resource type="Texture2D" uid="uid://brthjdpk0wukq" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00013.png" id="15_pjifo"]
+[ext_resource type="Texture2D" uid="uid://by0sd6of2cjw6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00014.png" id="16_bumev"]
+[ext_resource type="Texture2D" uid="uid://ynnpmhbu4yod" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00015.png" id="17_afhj3"]
+[ext_resource type="Texture2D" uid="uid://k2taeplemrti" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00016.png" id="18_wfmpy"]
+[ext_resource type="Texture2D" uid="uid://b5ow6ne3nxlm1" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00017.png" id="19_xfifs"]
+[ext_resource type="Texture2D" uid="uid://df6dugms25560" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00018.png" id="20_bqms0"]
+[ext_resource type="Texture2D" uid="uid://cxwmdxca028ur" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00019.png" id="21_hjxii"]
+[ext_resource type="Texture2D" uid="uid://2k7c4cy2dhag" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00020.png" id="22_jf56f"]
+[ext_resource type="Texture2D" uid="uid://d2vu000a18xat" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00021.png" id="23_2au05"]
+[ext_resource type="Texture2D" uid="uid://dbwy5f7haip75" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00022.png" id="24_oqelo"]
+[ext_resource type="Texture2D" uid="uid://lj1demjxv4rk" path="res://Art/Enemies/Gun fish/Low res/1. Idle/1. Idle/Gunfish idle_00023.png" id="25_sjj8b"]
+[ext_resource type="Texture2D" uid="uid://b5tp13rf467v" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00000.png" id="26_rxq4q"]
+[ext_resource type="Texture2D" uid="uid://c6s8yp1bp1oq1" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00000.png" id="26_uy4qh"]
+[ext_resource type="Texture2D" uid="uid://d02yji15gv4b5" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00001.png" id="27_63bd1"]
+[ext_resource type="Texture2D" uid="uid://4map3tn6rl6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00001.png" id="27_bt50w"]
+[ext_resource type="Texture2D" uid="uid://61q07c4f3c57" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00002.png" id="28_8vf6p"]
+[ext_resource type="Texture2D" uid="uid://dfp1c6e3mem4l" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00002.png" id="28_50c6s"]
+[ext_resource type="Texture2D" uid="uid://0xe3otaae5m2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00003.png" id="29_gffqd"]
+[ext_resource type="Texture2D" uid="uid://bgbbpildkjs6t" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00003.png" id="29_kddr3"]
+[ext_resource type="Texture2D" uid="uid://t562m88v4uvh" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00004.png" id="30_8y8yt"]
+[ext_resource type="Texture2D" uid="uid://d325ib3a5f6cs" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00004.png" id="30_qbxim"]
+[ext_resource type="Texture2D" uid="uid://b7j10ujr7btyu" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00005.png" id="31_fk7ws"]
+[ext_resource type="Texture2D" uid="uid://dtnovsstaag4a" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00005.png" id="31_ye333"]
+[ext_resource type="Texture2D" uid="uid://dx4bohgmxdgkm" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00006.png" id="32_vwsft"]
+[ext_resource type="Texture2D" uid="uid://bc0aru7gvdq3p" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00006.png" id="32_yeprl"]
+[ext_resource type="Texture2D" uid="uid://d0rkheg7dxg3o" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00007.png" id="33_t2gtp"]
+[ext_resource type="Texture2D" uid="uid://dc41uvfp0msxt" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00007.png" id="33_v6gf6"]
+[ext_resource type="Texture2D" uid="uid://cdcav2rr14a4y" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00008.png" id="34_n7iq1"]
+[ext_resource type="Texture2D" uid="uid://cs5g2pk2tyeba" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00008.png" id="34_y8nor"]
+[ext_resource type="Texture2D" uid="uid://dg48gpuubgjkj" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00009.png" id="35_364hy"]
+[ext_resource type="Texture2D" uid="uid://xa7ssxvn72fw" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00009.png" id="35_nsjrt"]
+[ext_resource type="Texture2D" uid="uid://3i5oka8uthbu" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00010.png" id="36_20cit"]
+[ext_resource type="Texture2D" uid="uid://cj87doosd7cu6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00010.png" id="36_ofemw"]
+[ext_resource type="Texture2D" uid="uid://djhe77c8pdyem" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00011.png" id="37_sh12u"]
+[ext_resource type="Texture2D" uid="uid://dx1gehwg72wt6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00011.png" id="37_skujr"]
+[ext_resource type="Texture2D" uid="uid://cl7gk34dwlv7x" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00012.png" id="38_64mkd"]
+[ext_resource type="Texture2D" uid="uid://h12gj43gcjgq" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00012.png" id="38_f2jr3"]
+[ext_resource type="Texture2D" uid="uid://cre5rby01y70g" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00013.png" id="39_1wfey"]
+[ext_resource type="Texture2D" uid="uid://qbyr4f1sjc1x" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00013.png" id="39_qremi"]
+[ext_resource type="Texture2D" uid="uid://bdcr0ov2251ny" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00014.png" id="40_c3b7s"]
+[ext_resource type="Texture2D" uid="uid://bk85pxxeg2htw" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00014.png" id="40_pdqmd"]
+[ext_resource type="Texture2D" uid="uid://c1vpwwjcgfvb1" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00015.png" id="41_3slax"]
+[ext_resource type="Texture2D" uid="uid://cjitvdnv4w2eg" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00015.png" id="41_dgmdn"]
+[ext_resource type="Texture2D" uid="uid://daodfwr721ccm" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00016.png" id="42_74flu"]
+[ext_resource type="Texture2D" uid="uid://bko7hdkj8rq4w" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00016.png" id="42_ue5gq"]
+[ext_resource type="Texture2D" uid="uid://bj4fjcf7kd5j" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00017.png" id="43_h6t8a"]
+[ext_resource type="Texture2D" uid="uid://67vj45iygm24" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00017.png" id="43_xhqh4"]
+[ext_resource type="Texture2D" uid="uid://6ga5xg3q8uy0" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00018.png" id="44_bk7hd"]
+[ext_resource type="Texture2D" uid="uid://cdk2dcpg2xuht" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00018.png" id="44_l341f"]
+[ext_resource type="Texture2D" uid="uid://ct0vb646mt4ic" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00019.png" id="45_62784"]
+[ext_resource type="Texture2D" uid="uid://cskht4wohy4l6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00019.png" id="45_l2bgy"]
+[ext_resource type="Texture2D" uid="uid://ddsbfrc1m63ek" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00020.png" id="46_1dhjd"]
+[ext_resource type="Texture2D" uid="uid://c3i4hbjqla1ly" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00020.png" id="46_4nw3k"]
+[ext_resource type="Texture2D" uid="uid://b35cbldjj6hiq" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00021.png" id="47_22b3t"]
+[ext_resource type="Texture2D" uid="uid://bl7wt004ey0i4" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00021.png" id="47_r8jln"]
+[ext_resource type="Texture2D" uid="uid://c8d56xrmegaso" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00022.png" id="48_f1tlr"]
+[ext_resource type="Texture2D" uid="uid://b4wes0fw4kha0" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00022.png" id="48_f3qy4"]
+[ext_resource type="Texture2D" uid="uid://c6jbxk8myry02" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Side/0Gunfish idle side agro_00023.png" id="49_5w0qt"]
+[ext_resource type="Texture2D" uid="uid://3dfsewy1syst" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/-45/0Gunfish idle side agro -45_00023.png" id="49_wjwt3"]
+[ext_resource type="Texture2D" uid="uid://3meogq7jmoma" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00000.png" id="50_48idl"]
+[ext_resource type="Texture2D" uid="uid://cmkl7vaku3cpf" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00000.png" id="50_nnopv"]
+[ext_resource type="Texture2D" uid="uid://bja7iof784o68" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00001.png" id="51_v0gml"]
+[ext_resource type="Texture2D" uid="uid://b2ikt4vsj7181" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00001.png" id="51_x1yyd"]
+[ext_resource type="Texture2D" uid="uid://cjcc0ik8dptmw" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00002.png" id="52_knmik"]
+[ext_resource type="Texture2D" uid="uid://b11rxl07wwmvf" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00002.png" id="52_uip1r"]
+[ext_resource type="Texture2D" uid="uid://d1t5jygt5r8hp" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00003.png" id="53_4uwrs"]
+[ext_resource type="Texture2D" uid="uid://b338nbiifw6bl" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00003.png" id="53_63yle"]
+[ext_resource type="Texture2D" uid="uid://c4v08fyaxonq" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00004.png" id="54_82753"]
+[ext_resource type="Texture2D" uid="uid://c6xk2g6p6xeew" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00004.png" id="54_j1i6b"]
+[ext_resource type="Texture2D" uid="uid://cx2cqe3fcayp6" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00005.png" id="55_fdntn"]
+[ext_resource type="Texture2D" uid="uid://dxjokk12hh87i" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00005.png" id="55_fmx5d"]
+[ext_resource type="Texture2D" uid="uid://bbkmat4lwx241" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00006.png" id="56_8rqhw"]
+[ext_resource type="Texture2D" uid="uid://bjfutboruneqv" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00006.png" id="56_22idx"]
+[ext_resource type="Texture2D" uid="uid://yoobo1bgncc1" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00007.png" id="57_jmjpm"]
+[ext_resource type="Texture2D" uid="uid://dx33m8bwu2fti" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00007.png" id="57_sh8pq"]
+[ext_resource type="Texture2D" uid="uid://jkiry7fwa325" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00008.png" id="58_4r7b8"]
+[ext_resource type="Texture2D" uid="uid://qffqk1rtuq6i" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00008.png" id="58_hqh51"]
+[ext_resource type="Texture2D" uid="uid://c16af4d5e6h6l" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00009.png" id="59_0mhra"]
+[ext_resource type="Texture2D" uid="uid://c3uh7mv21u7rg" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00009.png" id="59_v3jpy"]
+[ext_resource type="Texture2D" uid="uid://dh2tyxfwh3opb" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00010.png" id="60_ddcs6"]
+[ext_resource type="Texture2D" uid="uid://bg14soo8kyl2w" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00010.png" id="60_txhtt"]
+[ext_resource type="Texture2D" uid="uid://dx3hm8jaj36c5" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00011.png" id="61_jsnna"]
+[ext_resource type="Texture2D" uid="uid://dvor0h147n13r" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00011.png" id="61_lscbw"]
+[ext_resource type="Texture2D" uid="uid://dl2bumaygxc6j" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00012.png" id="62_8aglq"]
+[ext_resource type="Texture2D" uid="uid://dw705k48royes" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00012.png" id="62_qrlh6"]
+[ext_resource type="Texture2D" uid="uid://blu8wanmprkmb" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00013.png" id="63_6bkvq"]
+[ext_resource type="Texture2D" uid="uid://d3qyhbf8h3mt" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00013.png" id="63_l114h"]
+[ext_resource type="Texture2D" uid="uid://dcsdoo5ie3c01" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00014.png" id="64_cs83s"]
+[ext_resource type="Texture2D" uid="uid://csppjfjbyeqt2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00014.png" id="64_ng0nq"]
+[ext_resource type="Texture2D" uid="uid://dkaqongdh8v3f" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00015.png" id="65_81v3r"]
+[ext_resource type="Texture2D" uid="uid://tt1cng31de7k" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00015.png" id="65_pqu2q"]
+[ext_resource type="Texture2D" uid="uid://bbqoodrjqfwtj" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00016.png" id="66_cs5ah"]
+[ext_resource type="Texture2D" uid="uid://f3xchexxvsx7" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00016.png" id="66_wnlg3"]
+[ext_resource type="Texture2D" uid="uid://dltt1q0r5ymxj" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00017.png" id="67_13rox"]
+[ext_resource type="Texture2D" uid="uid://46orlgch4u3f" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00017.png" id="67_jhirl"]
+[ext_resource type="Texture2D" uid="uid://bj0be1f3fme8" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00018.png" id="68_18ti5"]
+[ext_resource type="Texture2D" uid="uid://bp742qlxka7pp" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00018.png" id="68_wruox"]
+[ext_resource type="Texture2D" uid="uid://bvm10iupx86gw" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00019.png" id="69_cro4y"]
+[ext_resource type="Texture2D" uid="uid://duldia5ay1rmg" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00019.png" id="69_sonuc"]
+[ext_resource type="Texture2D" uid="uid://cfho0swxnfdmq" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00020.png" id="70_gfm2v"]
+[ext_resource type="Texture2D" uid="uid://c4nq5arf8iuj2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00020.png" id="70_lgayd"]
+[ext_resource type="Texture2D" uid="uid://cj7fx5054dcry" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00021.png" id="71_5wqhv"]
+[ext_resource type="Texture2D" uid="uid://ch5xf5c65qgem" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00021.png" id="71_cv1t5"]
+[ext_resource type="Texture2D" uid="uid://bur430oviny80" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00022.png" id="72_06w63"]
+[ext_resource type="Texture2D" uid="uid://jmw6cfpdcl5m" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00022.png" id="72_jurew"]
+[ext_resource type="Texture2D" uid="uid://dr7ptrfshabu2" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/45/0Gunfish idle side agro 45_00023.png" id="73_1jtxa"]
+[ext_resource type="Texture2D" uid="uid://8rdvlxaqdm5c" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Up/0Gunfish idle up agro_00023.png" id="73_3y3fe"]
+[ext_resource type="Texture2D" uid="uid://cqbq83skmb6jc" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00000.png" id="74_jo6dr"]
+[ext_resource type="Texture2D" uid="uid://brxv6tyyo726p" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00001.png" id="76_eeuud"]
+[ext_resource type="Texture2D" uid="uid://b4iorkbgnrhhl" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00002.png" id="77_1wyhr"]
+[ext_resource type="Texture2D" uid="uid://c141xy5tg6rid" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00003.png" id="78_gl0wa"]
+[ext_resource type="Texture2D" uid="uid://va3heoeuxvg5" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00004.png" id="79_gqtjv"]
+[ext_resource type="Texture2D" uid="uid://bnpnxqpsyc84j" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00005.png" id="80_yhtry"]
+[ext_resource type="Texture2D" uid="uid://8wpxvs7282kj" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00006.png" id="81_jqh8r"]
+[ext_resource type="Texture2D" uid="uid://cm6olv5051xcd" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00007.png" id="82_cinbu"]
+[ext_resource type="Texture2D" uid="uid://bgad7xaduhry7" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00008.png" id="83_1ghca"]
+[ext_resource type="Texture2D" uid="uid://b18ady6g7671c" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00009.png" id="84_fs2qp"]
+[ext_resource type="Texture2D" uid="uid://icv1dygoppqh" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00010.png" id="85_gs6g6"]
+[ext_resource type="Texture2D" uid="uid://6fcebslnlwsk" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00011.png" id="86_pvav7"]
+[ext_resource type="Texture2D" uid="uid://cn3p33oulnf2e" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00012.png" id="87_c2ept"]
+[ext_resource type="Texture2D" uid="uid://c7qarumct03b4" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00013.png" id="88_c11q4"]
+[ext_resource type="Texture2D" uid="uid://bnwqo0tcb2i85" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00014.png" id="89_mwv7w"]
+[ext_resource type="Texture2D" uid="uid://de46avkqx4o5j" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00015.png" id="90_o05lc"]
+[ext_resource type="Texture2D" uid="uid://bj3jav3mbj5t3" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00016.png" id="91_5d6r8"]
+[ext_resource type="Texture2D" uid="uid://crwi86t7e0th" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00017.png" id="92_xqxgm"]
+[ext_resource type="Texture2D" uid="uid://coafech5wi0g5" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00018.png" id="93_o5100"]
+[ext_resource type="Texture2D" uid="uid://d3ssl0l4tq2vt" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00019.png" id="94_4kp5q"]
+[ext_resource type="Texture2D" uid="uid://wu5is0r835s3" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00020.png" id="95_ylvhy"]
+[ext_resource type="Texture2D" uid="uid://bbgsfhl6qf6x1" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00021.png" id="96_onieo"]
+[ext_resource type="Texture2D" uid="uid://nji6pwxpkce" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00022.png" id="97_7vuot"]
+[ext_resource type="Texture2D" uid="uid://dvrmtww38ug44" path="res://Art/Enemies/Gun fish/Low res/1. Idle/2. Idle Agro/Down/0Gunfish idle down agro_00023.png" id="98_108yg"]
+[ext_resource type="Texture2D" uid="uid://rfh0wptudaq8" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00000.png" id="99_xye7v"]
+[ext_resource type="Texture2D" uid="uid://kujmj86yhyew" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00001.png" id="100_3mke1"]
+[ext_resource type="Texture2D" uid="uid://da3vmcpm8oafx" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00002.png" id="101_q5smk"]
+[ext_resource type="Texture2D" uid="uid://iaxs8dcp7dcm" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00003.png" id="102_kv6wv"]
+[ext_resource type="Texture2D" uid="uid://cusvf6g6qsrx5" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00004.png" id="103_hg0at"]
+[ext_resource type="Texture2D" uid="uid://bah4y12rededd" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00005.png" id="104_7psny"]
+[ext_resource type="Texture2D" uid="uid://brwwmwh2wvbgl" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00006.png" id="105_ka80w"]
+[ext_resource type="Texture2D" uid="uid://ddvfacup6yt1y" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00007.png" id="106_a4hby"]
+[ext_resource type="Texture2D" uid="uid://dadh1u36juin0" path="res://Art/Enemies/Gun fish/Low res/2. Walk/Gunfish Walk side_00008.png" id="107_2oy32"]
+[ext_resource type="Texture2D" uid="uid://cy5lmtji5rha8" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00000.png" id="108_pov50"]
+[ext_resource type="Texture2D" uid="uid://d0aoyfj34wr0t" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00001.png" id="109_23875"]
+[ext_resource type="Texture2D" uid="uid://boxqef570lnq8" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00002.png" id="110_fftl2"]
+[ext_resource type="Texture2D" uid="uid://iv55ioexdxjl" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00003.png" id="111_qs1pc"]
+[ext_resource type="Texture2D" uid="uid://0fum2poaduc" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00004.png" id="112_px8lf"]
+[ext_resource type="Texture2D" uid="uid://hef3xkys3uwn" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00005.png" id="113_rab8s"]
+[ext_resource type="Texture2D" uid="uid://cbej75k1jmyh2" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00006.png" id="114_jfsu3"]
+[ext_resource type="Texture2D" uid="uid://cfwjxitnod7x3" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00007.png" id="115_vgapd"]
+[ext_resource type="Texture2D" uid="uid://db5qnnlofd2os" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00008.png" id="116_jou46"]
+[ext_resource type="Texture2D" uid="uid://dkrjlbhh5jc60" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00009.png" id="117_dny16"]
+[ext_resource type="Texture2D" uid="uid://deb8el78gf5af" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00010.png" id="118_jblto"]
+[ext_resource type="Texture2D" uid="uid://cv3t1qqmf8ckf" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00011.png" id="119_y5sb5"]
+[ext_resource type="Texture2D" uid="uid://b84qiowd263v2" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00012.png" id="120_pebeu"]
+[ext_resource type="Texture2D" uid="uid://dau41pa5hgjal" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00013.png" id="121_ksecn"]
+[ext_resource type="Texture2D" uid="uid://dsp50u2s10k1" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00014.png" id="122_qnjut"]
+[ext_resource type="Texture2D" uid="uid://dkxd7k0yvkygj" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00015.png" id="123_x0rym"]
+[ext_resource type="Texture2D" uid="uid://cc5yxar25xjgj" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00016.png" id="124_lxnk6"]
+[ext_resource type="Texture2D" uid="uid://b5s7g50d5psva" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00017.png" id="125_sq8mm"]
+[ext_resource type="Texture2D" uid="uid://kk84cq11enjy" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00018.png" id="126_gdgv6"]
+[ext_resource type="Texture2D" uid="uid://c0nwsgxsyclm5" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00019.png" id="127_4e1er"]
+[ext_resource type="Texture2D" uid="uid://vf8cw6lbnhs4" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00020.png" id="128_oy4o4"]
+[ext_resource type="Texture2D" uid="uid://cqncow11fxcnp" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00021.png" id="129_slwm6"]
+[ext_resource type="Texture2D" uid="uid://cppqr4h4rejxn" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00022.png" id="130_nrj64"]
+[ext_resource type="Texture2D" uid="uid://ilvocbarn3p0" path="res://Art/Enemies/Gun fish/Low res/3. Agro/Gunfish agro_00023.png" id="131_37d4i"]
+[ext_resource type="Texture2D" uid="uid://f0abi6nkodoh" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00000.png" id="132_bipai"]
+[ext_resource type="Texture2D" uid="uid://drhejhihcmm4q" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00001.png" id="133_syolp"]
+[ext_resource type="Texture2D" uid="uid://be1wpcdvuq8xn" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00002.png" id="134_7fyj7"]
+[ext_resource type="Texture2D" uid="uid://c50fwrbyvcs7" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00003.png" id="135_of5q0"]
+[ext_resource type="Texture2D" uid="uid://dpi68mve35cq0" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00004.png" id="136_hii3q"]
+[ext_resource type="Texture2D" uid="uid://bu0d35e7knp5y" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00005.png" id="137_fwloh"]
+[ext_resource type="Texture2D" uid="uid://npygonaq5et1" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00006.png" id="138_x1oyc"]
+[ext_resource type="Texture2D" uid="uid://nudp0xvuyf6v" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00007.png" id="139_2gxho"]
+[ext_resource type="Texture2D" uid="uid://dhoboerqosc5p" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Down/Gunfish Walk down agro_00008.png" id="140_8ljof"]
+[ext_resource type="Texture2D" uid="uid://cuod5iesyfh58" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00000.png" id="141_b0nxw"]
+[ext_resource type="Texture2D" uid="uid://din0142h7dile" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00001.png" id="142_k6t7m"]
+[ext_resource type="Texture2D" uid="uid://cm424bn4u1ljq" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00002.png" id="143_ubym3"]
+[ext_resource type="Texture2D" uid="uid://dyx0pt53gqr7b" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00003.png" id="144_hm0jl"]
+[ext_resource type="Texture2D" uid="uid://dh7qpoymfw26c" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00004.png" id="145_nh1k5"]
+[ext_resource type="Texture2D" uid="uid://5bltlc4ivdxb" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00005.png" id="146_qss6u"]
+[ext_resource type="Texture2D" uid="uid://pkncx3l81f5f" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00006.png" id="147_6s7ih"]
+[ext_resource type="Texture2D" uid="uid://dfj3iylrcy37s" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00007.png" id="148_5y0m6"]
+[ext_resource type="Texture2D" uid="uid://f260qsrf5k8f" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Side/Gunfish Walk side agro_00008.png" id="149_h6t4v"]
+[ext_resource type="Texture2D" uid="uid://6qk1qfxngmsl" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00000.png" id="150_j74i8"]
+[ext_resource type="Texture2D" uid="uid://b6x845fq3ujy1" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00001.png" id="151_y13bp"]
+[ext_resource type="Texture2D" uid="uid://crql82sdlhdid" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00002.png" id="152_npgem"]
+[ext_resource type="Texture2D" uid="uid://06k4nd1flaop" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00003.png" id="153_c6grf"]
+[ext_resource type="Texture2D" uid="uid://drj8tpskdml47" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00004.png" id="154_gschm"]
+[ext_resource type="Texture2D" uid="uid://bcdjvekusaohs" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00005.png" id="155_gwyh1"]
+[ext_resource type="Texture2D" uid="uid://de3frqlo5thwf" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00006.png" id="156_17n0w"]
+[ext_resource type="Texture2D" uid="uid://by6rehdo58y3t" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00007.png" id="157_7fu4x"]
+[ext_resource type="Texture2D" uid="uid://dxo5hnj5pmc8t" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/Up/Gunfish Walk up agro_00008.png" id="158_cm1kb"]
+[ext_resource type="Texture2D" uid="uid://m72nuy5y8xfj" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00000.png" id="159_742sf"]
+[ext_resource type="Texture2D" uid="uid://don04ufyi1tp5" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00001.png" id="160_0okem"]
+[ext_resource type="Texture2D" uid="uid://dhvivjjlph0g4" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00002.png" id="161_wo827"]
+[ext_resource type="Texture2D" uid="uid://b6pp2crqf5rcy" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00003.png" id="162_octxx"]
+[ext_resource type="Texture2D" uid="uid://c0gxufp230n64" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00004.png" id="163_cp2ja"]
+[ext_resource type="Texture2D" uid="uid://catboqujfnhe0" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00005.png" id="164_buxkd"]
+[ext_resource type="Texture2D" uid="uid://13vmvuca2a0f" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00006.png" id="165_hbvv3"]
+[ext_resource type="Texture2D" uid="uid://ci78b6k7kkyu" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00007.png" id="166_7uij1"]
+[ext_resource type="Texture2D" uid="uid://86g6cvsnsugv" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Down/Gunfish shoot down_00008.png" id="167_ggxx0"]
+[ext_resource type="Texture2D" uid="uid://b7yt52evxssep" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00000.png" id="168_mggk7"]
+[ext_resource type="Texture2D" uid="uid://bkrede1gf68cs" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00001.png" id="169_coe38"]
+[ext_resource type="Texture2D" uid="uid://cjh5gcje5fdde" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00002.png" id="170_1sqqv"]
+[ext_resource type="Texture2D" uid="uid://dsxrj0080tnrw" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00003.png" id="171_vy3wa"]
+[ext_resource type="Texture2D" uid="uid://cbd6e1h83imt2" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00004.png" id="172_6g5s6"]
+[ext_resource type="Texture2D" uid="uid://bdjay1lne5ybj" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00005.png" id="173_6hjit"]
+[ext_resource type="Texture2D" uid="uid://dypa1iydr8exx" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00006.png" id="174_l1tty"]
+[ext_resource type="Texture2D" uid="uid://bct2jotoa2rb3" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00007.png" id="175_3voua"]
+[ext_resource type="Texture2D" uid="uid://cm4dk3btlc6eo" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Side/Gunfish shoot side_00008.png" id="176_q5tqd"]
+[ext_resource type="Texture2D" uid="uid://d17dyy2onkoxd" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00000.png" id="177_7o81f"]
+[ext_resource type="Texture2D" uid="uid://c4cg7tfbvgsh2" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00001.png" id="178_vkid5"]
+[ext_resource type="Texture2D" uid="uid://1rr77e36w4xp" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00000.png" id="179_r5mdg"]
+[ext_resource type="Texture2D" uid="uid://c43qitxs5lwav" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00002.png" id="179_wy6g1"]
+[ext_resource type="Texture2D" uid="uid://c7oefvwtol485" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00003.png" id="180_0m3ir"]
+[ext_resource type="Texture2D" uid="uid://c4uwgbrycmjst" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00001.png" id="180_k8mam"]
+[ext_resource type="Texture2D" uid="uid://db6l25b7n3nxx" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00002.png" id="181_mfr5a"]
+[ext_resource type="Texture2D" uid="uid://co8bele4ks4q7" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00004.png" id="181_rot8f"]
+[ext_resource type="Texture2D" uid="uid://chm6omu81w61n" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00005.png" id="182_61pjl"]
+[ext_resource type="Texture2D" uid="uid://dvgkv24hwxg3t" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00003.png" id="182_jkrq0"]
+[ext_resource type="Texture2D" uid="uid://dycgm05cls8rv" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00004.png" id="183_u7nk5"]
+[ext_resource type="Texture2D" uid="uid://c6d5jdxitxmqv" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00006.png" id="183_w1t1p"]
+[ext_resource type="Texture2D" uid="uid://c8on4p3g5olim" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00007.png" id="184_bme82"]
+[ext_resource type="Texture2D" uid="uid://bvw4jti5rncjy" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00005.png" id="184_hupd5"]
+[ext_resource type="Texture2D" uid="uid://dl6ncwyltvaxq" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00006.png" id="185_h3pl3"]
+[ext_resource type="Texture2D" uid="uid://c5r3u4xvth68f" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/Up/Gunfish shoot up_00008.png" id="185_nq1or"]
+[ext_resource type="Texture2D" uid="uid://gg0jya0myf18" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00000.png" id="186_0nc27"]
+[ext_resource type="Texture2D" uid="uid://byowvt8c5oqdy" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00007.png" id="186_ahluj"]
+[ext_resource type="Texture2D" uid="uid://dk1asrn1j6vf8" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/-45/Gunfish Walk side agro -45_00008.png" id="187_6mpb7"]
+[ext_resource type="Texture2D" uid="uid://bm88ysyppc7lq" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00001.png" id="187_vy6yj"]
+[ext_resource type="Texture2D" uid="uid://401rlgdew807" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00002.png" id="188_dg7xj"]
+[ext_resource type="Texture2D" uid="uid://c80p3fhemrbep" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00000.png" id="188_ysl45"]
+[ext_resource type="Texture2D" uid="uid://br15x3h3dejy" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00001.png" id="189_i3ryh"]
+[ext_resource type="Texture2D" uid="uid://d24dtgtwjibn" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00003.png" id="189_yd4fs"]
+[ext_resource type="Texture2D" uid="uid://cmgnqcuhfwpsc" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00002.png" id="190_lle13"]
+[ext_resource type="Texture2D" uid="uid://ch0ebtgxqpu4d" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00004.png" id="190_pkbha"]
+[ext_resource type="Texture2D" uid="uid://dx1xsmpnksm3f" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00003.png" id="191_3rcnb"]
+[ext_resource type="Texture2D" uid="uid://bjmyjypc3lqlw" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00005.png" id="191_h5hbl"]
+[ext_resource type="Texture2D" uid="uid://c3et73uw8huaw" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00004.png" id="192_fred2"]
+[ext_resource type="Texture2D" uid="uid://c4dodd7fpq2q5" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00006.png" id="192_ycnwy"]
+[ext_resource type="Texture2D" uid="uid://8lqdu4r4h1pv" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00007.png" id="193_i106k"]
+[ext_resource type="Texture2D" uid="uid://bpin3rhxiexh" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00005.png" id="193_jcu2n"]
+[ext_resource type="Texture2D" uid="uid://i73mnowfp6pj" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Down/Gunfish shoot down walk_00008.png" id="194_0hsff"]
+[ext_resource type="Texture2D" uid="uid://d0fm5y5xevjar" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00006.png" id="194_nyvdh"]
+[ext_resource type="Texture2D" uid="uid://cmotkh7se4hw1" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00000.png" id="195_8bdo2"]
+[ext_resource type="Texture2D" uid="uid://822vn181ow16" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00007.png" id="195_s41oo"]
+[ext_resource type="Texture2D" uid="uid://uwe0llt7mp7g" path="res://Art/Enemies/Gun fish/Low res/4. Walk Agro/45/Gunfish Walk side agro 45_00008.png" id="196_4iafy"]
+[ext_resource type="Texture2D" uid="uid://kjy3j2hkms2w" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00001.png" id="196_hkxdw"]
+[ext_resource type="Texture2D" uid="uid://dkikhsy7tdngf" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00002.png" id="197_uy3wn"]
+[ext_resource type="Texture2D" uid="uid://h4jf26ovqhwr" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00003.png" id="198_3ll5p"]
+[ext_resource type="Texture2D" uid="uid://c4qlls8f63ouh" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00004.png" id="199_2fayb"]
+[ext_resource type="Texture2D" uid="uid://cs63yp8sf5wkt" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00005.png" id="200_4sc6v"]
+[ext_resource type="Texture2D" uid="uid://ck01kcj4r832m" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00006.png" id="201_oe1fo"]
+[ext_resource type="Texture2D" uid="uid://c70o0n5xmuu04" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00007.png" id="202_06o5i"]
+[ext_resource type="Texture2D" uid="uid://m1ho47ay802c" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Side/Gunfish shoot side walk_00008.png" id="203_np2xr"]
+[ext_resource type="Texture2D" uid="uid://bfsvtii0u28f7" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00000.png" id="204_ipihp"]
+[ext_resource type="Texture2D" uid="uid://c03ap3b0kcbdf" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00001.png" id="205_rrrf7"]
+[ext_resource type="Texture2D" uid="uid://yhd2hl44qc08" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00002.png" id="206_647w1"]
+[ext_resource type="Texture2D" uid="uid://8yc2obp6gxxr" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00003.png" id="207_sfnub"]
+[ext_resource type="Texture2D" uid="uid://rigx0x1ir4o4" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00004.png" id="208_4310d"]
+[ext_resource type="Texture2D" uid="uid://bd6fetgonpcd0" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00005.png" id="209_dhr58"]
+[ext_resource type="Texture2D" uid="uid://43np2e2tvcrr" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00006.png" id="210_psffx"]
+[ext_resource type="Texture2D" uid="uid://bb8dtuhmury2y" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00007.png" id="211_cmemt"]
+[ext_resource type="Texture2D" uid="uid://buehld67534ye" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/Up/Gunfish shoot up walk_00008.png" id="212_5wcdd"]
+[ext_resource type="Texture2D" uid="uid://d18410w0i57sq" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00000.png" id="213_wunil"]
+[ext_resource type="Texture2D" uid="uid://bim32q114kerg" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00001.png" id="214_m3qjx"]
+[ext_resource type="Texture2D" uid="uid://beliq7472yih5" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00002.png" id="215_5sqyc"]
+[ext_resource type="Texture2D" uid="uid://3851iuqvl45m" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00003.png" id="216_mnhfo"]
+[ext_resource type="Texture2D" uid="uid://dg23qai3fqgq2" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00004.png" id="217_1o7qe"]
+[ext_resource type="Texture2D" uid="uid://wn4vsmujsv2k" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00005.png" id="218_vqw4y"]
+[ext_resource type="Texture2D" uid="uid://gfltkrphn0ar" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00006.png" id="219_0ku53"]
+[ext_resource type="Texture2D" uid="uid://dggnry1g4f0ri" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00007.png" id="220_4yer7"]
+[ext_resource type="Texture2D" uid="uid://cfnwj8jim3kk6" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00008.png" id="221_f6fud"]
+[ext_resource type="Texture2D" uid="uid://dshp2aljxtfam" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00009.png" id="222_2nnye"]
+[ext_resource type="Texture2D" uid="uid://blis5dctslie7" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00010.png" id="223_i87o7"]
+[ext_resource type="Texture2D" uid="uid://dv2opnycuoe74" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00000.png" id="224_pgdcc"]
+[ext_resource type="Texture2D" uid="uid://bkhr5m8mc40mn" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00011.png" id="224_qd5cg"]
+[ext_resource type="Texture2D" uid="uid://bkqo5em1ik5r5" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00012.png" id="225_715w1"]
+[ext_resource type="Texture2D" uid="uid://dgoqauqfi8uoh" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00001.png" id="225_j2bow"]
+[ext_resource type="Texture2D" uid="uid://cxy7ix821xrpo" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00013.png" id="226_dtmpn"]
+[ext_resource type="Texture2D" uid="uid://byfjbnfpdm0wu" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00002.png" id="226_rhcgd"]
+[ext_resource type="Texture2D" uid="uid://d0u3os8q185g" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00014.png" id="227_d8f74"]
+[ext_resource type="Texture2D" uid="uid://dqidwupa0qygt" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00003.png" id="227_npmai"]
+[ext_resource type="Texture2D" uid="uid://rf0x1rtkmk2y" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00015.png" id="228_4yehm"]
+[ext_resource type="Texture2D" uid="uid://ducfu3uov48bc" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00004.png" id="228_61100"]
+[ext_resource type="Texture2D" uid="uid://b86dxr074ku1e" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00016.png" id="229_miao4"]
+[ext_resource type="Texture2D" uid="uid://cixyh5fklwjd7" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00005.png" id="229_y0baq"]
+[ext_resource type="Texture2D" uid="uid://bwwewdsj8v32q" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00006.png" id="230_nn5qr"]
+[ext_resource type="Texture2D" uid="uid://b0jex8mk6t468" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00017.png" id="230_x21c6"]
+[ext_resource type="Texture2D" uid="uid://bmhs0rpeeoqyi" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00018.png" id="231_3phgt"]
+[ext_resource type="Texture2D" uid="uid://brx4ekmlasmrn" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00007.png" id="231_nhf5j"]
+[ext_resource type="Texture2D" uid="uid://b3rnstyr3npr7" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00019.png" id="232_3syyx"]
+[ext_resource type="Texture2D" uid="uid://djs1h66705vqd" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/-45/Gunfish shoot side -45_00008.png" id="232_schyl"]
+[ext_resource type="Texture2D" uid="uid://73uu63gfb6wo" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00020.png" id="233_k4c48"]
+[ext_resource type="Texture2D" uid="uid://bjio6e631tcn6" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00000.png" id="233_xxja2"]
+[ext_resource type="Texture2D" uid="uid://dakmqd63vyn6v" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00001.png" id="234_lun4g"]
+[ext_resource type="Texture2D" uid="uid://3lo525tgn00c" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00021.png" id="234_u7l21"]
+[ext_resource type="Texture2D" uid="uid://bptftpk7byu5e" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00022.png" id="235_ook4q"]
+[ext_resource type="Texture2D" uid="uid://drxmdjvbv3egk" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00002.png" id="235_wbfm2"]
+[ext_resource type="Texture2D" uid="uid://bem4wafd6jajg" path="res://Art/Enemies/Gun fish/Low res/6. Deagro/Gunfish deagro_00023.png" id="236_qcbqn"]
+[ext_resource type="Texture2D" uid="uid://dve41nlfelc8" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00003.png" id="236_utpwp"]
+[ext_resource type="Texture2D" uid="uid://cyfdkmyodwvpm" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00000.png" id="237_k1maq"]
+[ext_resource type="Texture2D" uid="uid://cxx2307yckmqr" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00004.png" id="237_ucevb"]
+[ext_resource type="Texture2D" uid="uid://deqm70w84juay" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00001.png" id="238_ekium"]
+[ext_resource type="Texture2D" uid="uid://41wj0ofp8rnn" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00005.png" id="238_lji47"]
+[ext_resource type="Texture2D" uid="uid://rhmkj5me52j3" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00006.png" id="239_0etd4"]
+[ext_resource type="Texture2D" uid="uid://ccjamga65ltxr" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00002.png" id="239_qo8s7"]
+[ext_resource type="Texture2D" uid="uid://eo1fac06r3q2" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00003.png" id="240_td3ou"]
+[ext_resource type="Texture2D" uid="uid://bkomtcai06aes" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00007.png" id="240_y3nxy"]
+[ext_resource type="Texture2D" uid="uid://djfk3aw6gmkhg" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/1. Shoot/45/Gunfish shoot side 45_00008.png" id="241_7yrv2"]
+[ext_resource type="Texture2D" uid="uid://but4myjavv3b4" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00004.png" id="241_8g5w5"]
+[ext_resource type="Texture2D" uid="uid://4art6ys67os" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00005.png" id="242_bn4by"]
+[ext_resource type="Texture2D" uid="uid://c18r7y2p1wrjw" path="res://Art/Enemies/Gun fish/Low res/7. Hit/Gunfish Hit_00006.png" id="243_q33v5"]
+[ext_resource type="Texture2D" uid="uid://cy3agvr47e4hm" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00000.png" id="244_3p0dy"]
+[ext_resource type="Texture2D" uid="uid://b32dbo88vpd4d" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00001.png" id="245_201li"]
+[ext_resource type="Texture2D" uid="uid://cfkndu3egt4k6" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00002.png" id="246_j88v3"]
+[ext_resource type="Texture2D" uid="uid://m8hkrlq0mcm7" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00003.png" id="247_37j45"]
+[ext_resource type="Texture2D" uid="uid://6uto5q1524rt" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00004.png" id="248_rtf6c"]
+[ext_resource type="Texture2D" uid="uid://fx4lsx7gapqk" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00005.png" id="249_xoi6d"]
+[ext_resource type="Texture2D" uid="uid://coqfys05d3ovi" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00006.png" id="250_r6um4"]
+[ext_resource type="Texture2D" uid="uid://b22ewholxrv22" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00007.png" id="251_2ygnb"]
+[ext_resource type="Texture2D" uid="uid://iyh845c81mis" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00008.png" id="252_4dm8w"]
+[ext_resource type="Texture2D" uid="uid://b6f8n7yr4xi0i" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00009.png" id="253_hamer"]
+[ext_resource type="Texture2D" uid="uid://b8255nxr0s7ho" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00010.png" id="254_c6nqf"]
+[ext_resource type="Texture2D" uid="uid://dr1jr2nq7pr6x" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00011.png" id="255_d1vem"]
+[ext_resource type="Texture2D" uid="uid://sk0t116c8umt" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00012.png" id="256_crw38"]
+[ext_resource type="Texture2D" uid="uid://bpwsemk4o5age" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00013.png" id="257_tmgiu"]
+[ext_resource type="Texture2D" uid="uid://dkhc5b133alil" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00014.png" id="258_rmux6"]
+[ext_resource type="Texture2D" uid="uid://cjhhljr1glgo6" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00015.png" id="259_7cf2x"]
+[ext_resource type="Texture2D" uid="uid://d1epy8ycsikc2" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00016.png" id="260_o2rfs"]
+[ext_resource type="Texture2D" uid="uid://bdwu36y1sd0w8" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00017.png" id="261_7kgil"]
+[ext_resource type="Texture2D" uid="uid://gy17c3n7ui25" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00018.png" id="262_pxbxc"]
+[ext_resource type="Texture2D" uid="uid://de2mo23dlv0vo" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00019.png" id="263_36llh"]
+[ext_resource type="Texture2D" uid="uid://bocuqi4d2bb53" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00020.png" id="264_myyuv"]
+[ext_resource type="Texture2D" uid="uid://c5xle58hiktuy" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00021.png" id="265_1bahs"]
+[ext_resource type="Texture2D" uid="uid://dfjud4ck6hm8w" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00022.png" id="266_6f8su"]
+[ext_resource type="Script" path="res://FSM.gd" id="266_lxw5g"]
+[ext_resource type="Texture2D" uid="uid://jqqs51rq7uct" path="res://Art/Enemies/Gun fish/Low res/8. Death/Gunfish death_00023.png" id="267_5ylhk"]
+[ext_resource type="Script" path="res://Scenes/Enemies/Not agro.gd" id="268_t57dw"]
+[ext_resource type="Texture2D" uid="uid://c1py0vvmsuaml" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00000.png" id="269_81sye"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Agro.gd" id="269_audi0"]
+[ext_resource type="Texture2D" uid="uid://brrhvwnx1kh77" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00001.png" id="270_h7yb1"]
+[ext_resource type="Script" path="res://Scenes/Enemies/Is Agro.gd" id="270_i78i5"]
+[ext_resource type="Script" path="res://Scenes/Enemies/Walk.gd" id="270_msfsm"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Shooting.gd" id="271_7t7ux"]
+[ext_resource type="Texture2D" uid="uid://dqh3cr2porxeh" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00002.png" id="271_jfg6e"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Deagro.gd" id="272_g1bfg"]
+[ext_resource type="Texture2D" uid="uid://cpswnyiy8j1uq" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00003.png" id="272_sv5xk"]
+[ext_resource type="Script" path="res://Scenes/Enemies/Agro_walking.gd" id="273_2on71"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Hit.gd" id="273_dnhak"]
+[ext_resource type="Texture2D" uid="uid://co1s2hworei3e" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00004.png" id="273_hqoof"]
+[ext_resource type="Script" path="res://Scenes/Enemies/Agro_backing off.gd" id="273_woxx7"]
+[ext_resource type="Texture2D" uid="uid://ds8eymiby7tat" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00005.png" id="274_lomex"]
+[ext_resource type="Texture2D" uid="uid://c48w8648psrq0" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00006.png" id="275_1ld0o"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Shooting_walk.gd" id="275_ji5fp"]
+[ext_resource type="Texture2D" uid="uid://ccs3our7k5fvu" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00007.png" id="276_ahc82"]
+[ext_resource type="Texture2D" uid="uid://1s0jie2gfdvg" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/-45/Gunfish shoot side walk -45_00008.png" id="277_5msc4"]
+[ext_resource type="Texture2D" uid="uid://cc1p3pxie3e1v" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00000.png" id="278_82qcs"]
+[ext_resource type="Texture2D" uid="uid://4ncly1dxmolu" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00001.png" id="279_4lftj"]
+[ext_resource type="Texture2D" uid="uid://c4o7r4yysyfsu" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00002.png" id="280_gq4cp"]
+[ext_resource type="Texture2D" uid="uid://bulan7gvy6h" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00003.png" id="281_iyqo2"]
+[ext_resource type="Texture2D" uid="uid://du6g44kxrnelw" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00004.png" id="282_8o56u"]
+[ext_resource type="Texture2D" uid="uid://cyt74ti7k8s6s" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00005.png" id="283_bwvoy"]
+[ext_resource type="Texture2D" uid="uid://dkngl3ilxxo7k" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00006.png" id="284_eisnv"]
+[ext_resource type="Texture2D" uid="uid://euyef1s0xlc6" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00007.png" id="285_n1qx0"]
+[ext_resource type="Texture2D" uid="uid://daps12yi4vc72" path="res://Art/Enemies/Gun fish/Low res/5. Shoot/2. Shoot walk/45/Gunfish shoot side walk 45_00008.png" id="286_4qsnb"]
+[ext_resource type="Script" path="res://Scenes/Enemies/F_Death.gd" id="380_nil0e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c8j50"]
+size = Vector2(64, 141)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jldq5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_l061a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ncge8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6tt0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_t5jfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hveto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fdunr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_iehgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_ibq14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fs6wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vmhxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_i1ljm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nlpn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_gmcw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_pjifo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_bumev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_afhj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wfmpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xfifs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bqms0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hjxii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_jf56f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2au05")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_oqelo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_sjj8b")
+}],
+"loop": true,
+"name": &"1. Idle",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_rxq4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bt50w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_50c6s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_gffqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_8y8yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ye333")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_vwsft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_v6gf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_y8nor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_364hy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_20cit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_sh12u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_64mkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_qremi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_pdqmd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_dgmdn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_74flu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_xhqh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_bk7hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_62784")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_1dhjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_r8jln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_f3qy4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_wjwt3")
+}],
+"loop": true,
+"name": &"1. Idle Agro_-45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_48idl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_v0gml")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_uip1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_4uwrs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_j1i6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_fdntn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_8rqhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_sh8pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4r7b8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_0mhra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_txhtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_lscbw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_qrlh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_l114h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ng0nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_pqu2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_wnlg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_13rox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_wruox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_cro4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_lgayd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_5wqhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_jurew")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_1jtxa")
+}],
+"loop": true,
+"name": &"1. Idle Agro_45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_jo6dr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_eeuud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_1wyhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_gl0wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_gqtjv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_yhtry")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_jqh8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_cinbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_1ghca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_fs2qp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_gs6g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_pvav7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_c2ept")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_c11q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_mwv7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_o05lc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_5d6r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_xqxgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_o5100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_4kp5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_ylvhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_onieo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_7vuot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_108yg")
+}],
+"loop": true,
+"name": &"1. Idle Agro_Down",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_uy4qh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_63bd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8vf6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_kddr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_qbxim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_fk7ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_yeprl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_t2gtp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_n7iq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_nsjrt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_ofemw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_skujr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_f2jr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_1wfey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_c3b7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_3slax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_ue5gq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_h6t8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_l341f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_l2bgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_4nw3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_22b3t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_f1tlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_5w0qt")
+}],
+"loop": true,
+"name": &"1. Idle Agro_Side",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_nnopv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_x1yyd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_knmik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_63yle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_82753")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_fmx5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_22idx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_jmjpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_hqh51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_v3jpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_ddcs6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_jsnna")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_8aglq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_6bkvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_cs83s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_81v3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_cs5ah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_jhirl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_18ti5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_sonuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_gfm2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_cv1t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_06w63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_3y3fe")
+}],
+"loop": true,
+"name": &"1. Idle Agro_Up",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("99_xye7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_3mke1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_q5smk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_kv6wv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_hg0at")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_7psny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_ka80w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_a4hby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_2oy32")
+}],
+"loop": true,
+"name": &"2. Walk",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("108_pov50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_23875")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_fftl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_qs1pc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_px8lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_rab8s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_jfsu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_vgapd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_jou46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_dny16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_jblto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_y5sb5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_pebeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_ksecn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_qnjut")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_x0rym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_lxnk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_sq8mm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_gdgv6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_4e1er")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_oy4o4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_slwm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_nrj64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_37d4i")
+}],
+"loop": false,
+"name": &"3. Agro",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("179_r5mdg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_k8mam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_mfr5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_jkrq0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_u7nk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_hupd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_h3pl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_ahluj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_6mpb7")
+}],
+"loop": true,
+"name": &"4. Walk Agro_-45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("188_ysl45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_i3ryh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_lle13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_3rcnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_fred2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_jcu2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_nyvdh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_s41oo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_4iafy")
+}],
+"loop": true,
+"name": &"4. Walk Agro_45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("132_bipai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_syolp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_7fyj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_of5q0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_hii3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_fwloh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_x1oyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_2gxho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_8ljof")
+}],
+"loop": true,
+"name": &"4. Walk Agro_Down",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("141_b0nxw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_k6t7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_ubym3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_hm0jl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_nh1k5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_qss6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_6s7ih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_5y0m6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_h6t4v")
+}],
+"loop": true,
+"name": &"4. Walk Agro_Side",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("150_j74i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_y13bp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_npgem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_c6grf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_gschm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_gwyh1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_17n0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_7fu4x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_cm1kb")
+}],
+"loop": true,
+"name": &"4. Walk Agro_Up",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("224_pgdcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_j2bow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_rhcgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_npmai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_61100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_y0baq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_nn5qr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_nhf5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_schyl")
+}],
+"loop": false,
+"name": &"5. Shoot_-45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("233_xxja2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_lun4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_wbfm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_utpwp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_ucevb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_lji47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_0etd4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_y3nxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_7yrv2")
+}],
+"loop": false,
+"name": &"5. Shoot_45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("159_742sf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_0okem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_wo827")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_octxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_cp2ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_buxkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_hbvv3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_7uij1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_ggxx0")
+}],
+"loop": false,
+"name": &"5. Shoot_Down",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("168_mggk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_coe38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_1sqqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_vy3wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_6g5s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_6hjit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_l1tty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_3voua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_q5tqd")
+}],
+"loop": false,
+"name": &"5. Shoot_Side",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("177_7o81f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_vkid5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_wy6g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_0m3ir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_rot8f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_61pjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_w1t1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_bme82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_nq1or")
+}],
+"loop": false,
+"name": &"5. Shoot_Up",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("269_81sye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_h7yb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_jfg6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_sv5xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_hqoof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_lomex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_1ld0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_ahc82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_5msc4")
+}],
+"loop": true,
+"name": &"5.1 Shoot_Walk_-45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("278_82qcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_4lftj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_gq4cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_iyqo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_8o56u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_bwvoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_eisnv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_n1qx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_4qsnb")
+}],
+"loop": true,
+"name": &"5.1 Shoot_Walk_45",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("186_0nc27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_vy6yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_dg7xj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_yd4fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_pkbha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_h5hbl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_ycnwy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_i106k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_0hsff")
+}],
+"loop": false,
+"name": &"5.1 Shoot_Walk_Down",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("195_8bdo2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_hkxdw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_uy3wn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_3ll5p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_2fayb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_4sc6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_oe1fo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_06o5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_np2xr")
+}],
+"loop": false,
+"name": &"5.1 Shoot_Walk_Side",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("204_ipihp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_rrrf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_647w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_sfnub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_4310d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_dhr58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_psffx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_cmemt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_5wcdd")
+}],
+"loop": false,
+"name": &"5.1 Shoot_Walk_Up",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("213_wunil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_m3qjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_5sqyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_mnhfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_1o7qe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_vqw4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_0ku53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_4yer7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_f6fud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_2nnye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_i87o7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_qd5cg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_715w1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_dtmpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_d8f74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_4yehm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_miao4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_x21c6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_3phgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_3syyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_k4c48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_u7l21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_ook4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_qcbqn")
+}],
+"loop": false,
+"name": &"6. Deagro",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("237_k1maq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_ekium")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_qo8s7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_td3ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_8g5w5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_bn4by")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_q33v5")
+}],
+"loop": false,
+"name": &"7. Hit",
+"speed": 24.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("237_k1maq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_k1maq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_3p0dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_3p0dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_201li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_201li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_j88v3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_37j45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_rtf6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_xoi6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_r6um4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_2ygnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_4dm8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_hamer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_c6nqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_d1vem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_crw38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_tmgiu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_rmux6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_7cf2x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_o2rfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_7kgil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_pxbxc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_36llh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_myyuv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_1bahs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_6f8su")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_5ylhk")
+}],
+"loop": false,
+"name": &"8. Death",
+"speed": 28.0
+}]
+
+[sub_resource type="Animation" id="Animation_gqapk"]
+resource_name = "1. Idle"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_m564x"]
+resource_name = "1. Idle_Agro_-45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_-45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(125, -130)]
+}
+
+[sub_resource type="Animation" id="Animation_dnv1f"]
+resource_name = "1. Idle_Agro_45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(129, 74)]
+}
+
+[sub_resource type="Animation" id="Animation_ykisj"]
+resource_name = "1. Idle_Agro_Down"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_Down"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, -16)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(34, 117)]
+}
+
+[sub_resource type="Animation" id="Animation_17eax"]
+resource_name = "1. Idle_Agro_Left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_hfvg3"]
+resource_name = "1. Idle_Agro_Right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_dau42"]
+resource_name = "1. Idle_Agro_Up"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle Agro_Up"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, -23)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(22, -165)]
+}
+
+[sub_resource type="Animation" id="Animation_y7xnj"]
+resource_name = "1. Idle_left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_nqb56"]
+resource_name = "1. Idle_right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["1. Idle"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_274lw"]
+resource_name = "2. Walk"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["2. Walk"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_kajqp"]
+resource_name = "2. Walk_Left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["2. Walk"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_bpljk"]
+resource_name = "2. Walk_Right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["2. Walk"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_cyewg"]
+resource_name = "3. Agro"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["3. Agro"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_m3s5o"]
+resource_name = "4. Walk Agro_-45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_-45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(125, -130)]
+}
+
+[sub_resource type="Animation" id="Animation_bmy61"]
+resource_name = "4. Walk Agro_45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(129, 74)]
+}
+
+[sub_resource type="Animation" id="Animation_oqdyh"]
+resource_name = "4. Walk Agro_Down"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_Down"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(34, 117)]
+}
+
+[sub_resource type="Animation" id="Animation_oyspy"]
+resource_name = "4. Walk Agro_Left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_phlhj"]
+resource_name = "4. Walk Agro_Right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_pboff"]
+resource_name = "4. Walk Agro_Up"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["4. Walk Agro_Up"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(22, -165)]
+}
+
+[sub_resource type="Animation" id="Animation_3wsyi"]
+resource_name = "5. Shoot_-45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_-45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(125, -130)]
+}
+
+[sub_resource type="Animation" id="Animation_1aavn"]
+resource_name = "5. Shoot_45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(129, 74)]
+}
+
+[sub_resource type="Animation" id="Animation_mdkqc"]
+resource_name = "5. Shoot_Down"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_Down"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(34, 117)]
+}
+
+[sub_resource type="Animation" id="Animation_60mte"]
+resource_name = "5. Shoot_Left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_ilmdn"]
+resource_name = "5. Shoot_Right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_hbpoj"]
+resource_name = "5. Shoot_Up"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5. Shoot_Up"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(22, -165)]
+}
+
+[sub_resource type="Animation" id="Animation_5exh0"]
+resource_name = "5.1 Shoot_Walk_-45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_-45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(125, -130)]
+}
+
+[sub_resource type="Animation" id="Animation_om5s7"]
+resource_name = "5.1 Shoot_Walk_45"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_45"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(129, 74)]
+}
+
+[sub_resource type="Animation" id="Animation_g11d7"]
+resource_name = "5.1 Shoot_Walk_Down"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_Down"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(34, 117)]
+}
+
+[sub_resource type="Animation" id="Animation_b0gr1"]
+resource_name = "5.1 Shoot_Walk_Left"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_xnkoh"]
+resource_name = "5.1 Shoot_Walk_Right"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_Side"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(169, -29)]
+}
+
+[sub_resource type="Animation" id="Animation_avhev"]
+resource_name = "5.1 Shoot_Walk_Up"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["5.1 Shoot_Walk_Up"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Flip/Markers/Test marker:position")
+tracks/2/interp = 0
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2(22, -165)]
+}
+
+[sub_resource type="Animation" id="Animation_74hbt"]
+resource_name = "6. Deagro"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["6. Deagro"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_qq7r5"]
+resource_name = "7. Hit"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["7. Hit"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_p28bh"]
+resource_name = "8. Death"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Flip/AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": ["8. Death"],
+"method": &"play"
+}]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Flip/AnimatedSprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(38, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CollisionShape2D:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_oupry"]
+_data = {
+"1. Idle": SubResource("Animation_gqapk"),
+"1. Idle_Agro_-45": SubResource("Animation_m564x"),
+"1. Idle_Agro_45": SubResource("Animation_dnv1f"),
+"1. Idle_Agro_Down": SubResource("Animation_ykisj"),
+"1. Idle_Agro_Left": SubResource("Animation_17eax"),
+"1. Idle_Agro_Right": SubResource("Animation_hfvg3"),
+"1. Idle_Agro_Up": SubResource("Animation_dau42"),
+"1. Idle_left": SubResource("Animation_y7xnj"),
+"1. Idle_right": SubResource("Animation_nqb56"),
+"2. Walk": SubResource("Animation_274lw"),
+"2. Walk_Left": SubResource("Animation_kajqp"),
+"2. Walk_Right": SubResource("Animation_bpljk"),
+"3. Agro": SubResource("Animation_cyewg"),
+"4. Walk Agro_-45": SubResource("Animation_m3s5o"),
+"4. Walk Agro_45": SubResource("Animation_bmy61"),
+"4. Walk Agro_Down": SubResource("Animation_oqdyh"),
+"4. Walk Agro_Left": SubResource("Animation_oyspy"),
+"4. Walk Agro_Right": SubResource("Animation_phlhj"),
+"4. Walk Agro_Up": SubResource("Animation_pboff"),
+"5. Shoot_-45": SubResource("Animation_3wsyi"),
+"5. Shoot_45": SubResource("Animation_1aavn"),
+"5. Shoot_Down": SubResource("Animation_mdkqc"),
+"5. Shoot_Left": SubResource("Animation_60mte"),
+"5. Shoot_Right": SubResource("Animation_ilmdn"),
+"5. Shoot_Up": SubResource("Animation_hbpoj"),
+"5.1 Shoot_Walk_-45": SubResource("Animation_5exh0"),
+"5.1 Shoot_Walk_45": SubResource("Animation_om5s7"),
+"5.1 Shoot_Walk_Down": SubResource("Animation_g11d7"),
+"5.1 Shoot_Walk_Left": SubResource("Animation_b0gr1"),
+"5.1 Shoot_Walk_Right": SubResource("Animation_xnkoh"),
+"5.1 Shoot_Walk_Up": SubResource("Animation_avhev"),
+"6. Deagro": SubResource("Animation_74hbt"),
+"7. Hit": SubResource("Animation_qq7r5"),
+"8. Death": SubResource("Animation_p28bh")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_k56dr"]
+animation = &"3. Agro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_dykq6"]
+animation = &"3. Agro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_6fa7k"]
+animation = &"3. Agro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_378er"]
+animation = &"3. Agro"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_ympar"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_k56dr")
+blend_point_0/pos = Vector2(0, 1)
+blend_point_1/node = SubResource("AnimationNodeAnimation_dykq6")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_6fa7k")
+blend_point_2/pos = Vector2(-1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_378er")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0610r"]
+animation = &"6. Deagro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_71i0l"]
+animation = &"6. Deagro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ahf64"]
+animation = &"6. Deagro"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_06tib"]
+animation = &"6. Deagro"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_ig0a2"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_0610r")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_71i0l")
+blend_point_1/pos = Vector2(0, 1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_ahf64")
+blend_point_2/pos = Vector2(1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_06tib")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ef86m"]
+animation = &"8. Death"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nwmun"]
+animation = &"8. Death"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4yjyc"]
+animation = &"8. Death"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ptbpo"]
+animation = &"8. Death"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_webhc"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_ef86m")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_nwmun")
+blend_point_1/pos = Vector2(0, 1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_4yjyc")
+blend_point_2/pos = Vector2(1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_ptbpo")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hywof"]
+animation = &"7. Hit"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b8a4k"]
+animation = &"7. Hit"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_e5kq8"]
+animation = &"7. Hit"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ep3tk"]
+animation = &"7. Hit"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_iwlup"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_hywof")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_b8a4k")
+blend_point_1/pos = Vector2(0, 1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_e5kq8")
+blend_point_2/pos = Vector2(1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_ep3tk")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_aiaaa"]
+animation = &"1. Idle_left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_j7h12"]
+animation = &"1. Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_dpfh1"]
+animation = &"1. Idle_right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_2c37q"]
+animation = &"1. Idle"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_xybcc"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_aiaaa")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_j7h12")
+blend_point_1/pos = Vector2(0, 1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_dpfh1")
+blend_point_2/pos = Vector2(1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_2c37q")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_g0646"]
+animation = &"1. Idle_Agro_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_td1tb"]
+animation = &"1. Idle_Agro_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_fgsy8"]
+animation = &"1. Idle_Agro_Down"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_g3p3q"]
+animation = &"1. Idle_Agro_Up"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jpqqs"]
+animation = &"1. Idle_Agro_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_w3ooe"]
+animation = &"1. Idle_Agro_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_1id28"]
+animation = &"1. Idle_Agro_-45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_dclse"]
+animation = &"1. Idle_Agro_-45"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_x3qbn"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_g0646")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_td1tb")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_fgsy8")
+blend_point_2/pos = Vector2(0, 1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_g3p3q")
+blend_point_3/pos = Vector2(0, -1)
+blend_point_4/node = SubResource("AnimationNodeAnimation_jpqqs")
+blend_point_4/pos = Vector2(-0.5, 0.5)
+blend_point_5/node = SubResource("AnimationNodeAnimation_w3ooe")
+blend_point_5/pos = Vector2(0.5, 0.5)
+blend_point_6/node = SubResource("AnimationNodeAnimation_1id28")
+blend_point_6/pos = Vector2(-0.5, -0.5)
+blend_point_7/node = SubResource("AnimationNodeAnimation_dclse")
+blend_point_7/pos = Vector2(0.5, -0.5)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_2cjp4"]
+animation = &"5. Shoot_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_e1pjn"]
+animation = &"5. Shoot_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_uqtok"]
+animation = &"5. Shoot_Down"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hc8jn"]
+animation = &"5. Shoot_Up"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_5hrko"]
+animation = &"5. Shoot_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_i4p3l"]
+animation = &"5. Shoot_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_53c3b"]
+animation = &"5. Shoot_-45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3s6xb"]
+animation = &"5. Shoot_-45"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_pf6dn"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_2cjp4")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_e1pjn")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_uqtok")
+blend_point_2/pos = Vector2(0, 1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_hc8jn")
+blend_point_3/pos = Vector2(0, -1)
+blend_point_4/node = SubResource("AnimationNodeAnimation_5hrko")
+blend_point_4/pos = Vector2(-0.5, 0.5)
+blend_point_5/node = SubResource("AnimationNodeAnimation_i4p3l")
+blend_point_5/pos = Vector2(0.5, 0.5)
+blend_point_6/node = SubResource("AnimationNodeAnimation_53c3b")
+blend_point_6/pos = Vector2(-0.5, -0.5)
+blend_point_7/node = SubResource("AnimationNodeAnimation_3s6xb")
+blend_point_7/pos = Vector2(0.5, -0.5)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_7l076"]
+animation = &"5.1 Shoot_Walk_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hyq3j"]
+animation = &"5.1 Shoot_Walk_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ilgk3"]
+animation = &"5.1 Shoot_Walk_Down"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gs6ve"]
+animation = &"5.1 Shoot_Walk_Up"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0bjvx"]
+animation = &"5.1 Shoot_Walk_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_erqn7"]
+animation = &"5.1 Shoot_Walk_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_bvrm2"]
+animation = &"5.1 Shoot_Walk_-45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_f5euu"]
+animation = &"5.1 Shoot_Walk_-45"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_sdkpj"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_7l076")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_hyq3j")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_ilgk3")
+blend_point_2/pos = Vector2(0, 1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_gs6ve")
+blend_point_3/pos = Vector2(0, -1)
+blend_point_4/node = SubResource("AnimationNodeAnimation_0bjvx")
+blend_point_4/pos = Vector2(-0.5, 0.5)
+blend_point_5/node = SubResource("AnimationNodeAnimation_erqn7")
+blend_point_5/pos = Vector2(0.5, 0.5)
+blend_point_6/node = SubResource("AnimationNodeAnimation_bvrm2")
+blend_point_6/pos = Vector2(-0.5, -0.5)
+blend_point_7/node = SubResource("AnimationNodeAnimation_f5euu")
+blend_point_7/pos = Vector2(0.5, -0.5)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_rmcgg"]
+animation = &"2. Walk_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_xhoh6"]
+animation = &"2. Walk_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qkm5v"]
+animation = &"2. Walk"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_lluwc"]
+animation = &"2. Walk"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_2lv10"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_rmcgg")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_xhoh6")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_qkm5v")
+blend_point_2/pos = Vector2(0, 1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_lluwc")
+blend_point_3/pos = Vector2(0, -1)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0gi8m"]
+animation = &"4. Walk Agro_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_agr66"]
+animation = &"4. Walk Agro_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nrhyr"]
+animation = &"4. Walk Agro_Down"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_qi36e"]
+animation = &"4. Walk Agro_Up"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_cjj8q"]
+animation = &"4. Walk Agro_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ntfol"]
+animation = &"4. Walk Agro_45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_d2v4r"]
+animation = &"4. Walk Agro_-45"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tepgx"]
+animation = &"4. Walk Agro_-45"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_gxdb0"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_0gi8m")
+blend_point_0/pos = Vector2(-1, 0)
+blend_point_1/node = SubResource("AnimationNodeAnimation_agr66")
+blend_point_1/pos = Vector2(1, 0)
+blend_point_2/node = SubResource("AnimationNodeAnimation_nrhyr")
+blend_point_2/pos = Vector2(0, 1)
+blend_point_3/node = SubResource("AnimationNodeAnimation_qi36e")
+blend_point_3/pos = Vector2(0, -1)
+blend_point_4/node = SubResource("AnimationNodeAnimation_cjj8q")
+blend_point_4/pos = Vector2(-0.5, 0.5)
+blend_point_5/node = SubResource("AnimationNodeAnimation_ntfol")
+blend_point_5/pos = Vector2(0.5, 0.5)
+blend_point_6/node = SubResource("AnimationNodeAnimation_d2v4r")
+blend_point_6/pos = Vector2(-0.5, -0.5)
+blend_point_7/node = SubResource("AnimationNodeAnimation_tepgx")
+blend_point_7/pos = Vector2(0.5, -0.5)
+blend_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_hylyh"]
+advance_mode = 2
+advance_condition = &"Walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ume00"]
+advance_mode = 2
+advance_condition = &"Idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_flera"]
+advance_mode = 2
+advance_condition = &"Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_j5a1v"]
+advance_mode = 2
+advance_condition = &"Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_2ktxy"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"Idle_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jxfiy"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"Walk_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8yvpq"]
+advance_mode = 2
+advance_condition = &"Idle_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_fipv8"]
+advance_mode = 2
+advance_condition = &"Walk_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_uvg6d"]
+advance_mode = 2
+advance_condition = &"Deagro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_etn7i"]
+advance_mode = 2
+advance_condition = &"Deagro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_2cihm"]
+advance_mode = 2
+advance_condition = &"Shoot"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ll7ab"]
+advance_mode = 2
+advance_condition = &"Shoot_Walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0bq21"]
+advance_mode = 2
+advance_condition = &"Shoot_Walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_fod84"]
+advance_mode = 2
+advance_condition = &"Shoot"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bn2jc"]
+advance_mode = 2
+advance_condition = &"Idle_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_x8tyh"]
+advance_mode = 2
+advance_condition = &"Walk_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_3ogsp"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"Walk"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_w0dx8"]
+switch_mode = 2
+advance_mode = 2
+advance_condition = &"Idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_mv3mm"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_prvro"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_88ghp"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_piwow"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_x7saa"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_14q7u"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_d4xcr"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_g3enh"]
+advance_mode = 2
+advance_condition = &"Hit"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_838rl"]
+advance_mode = 2
+advance_condition = &"Death"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_fb2k1"]
+advance_mode = 2
+advance_condition = &"Idle_Agro"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_04gli"]
+advance_mode = 2
+advance_condition = &"Idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bpuda"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_3aiua"]
+states/Agro/node = SubResource("AnimationNodeBlendSpace2D_ympar")
+states/Agro/position = Vector2(436, 68)
+states/Deagro/node = SubResource("AnimationNodeBlendSpace2D_ig0a2")
+states/Deagro/position = Vector2(765, 161)
+states/Death/node = SubResource("AnimationNodeBlendSpace2D_webhc")
+states/Death/position = Vector2(1288, -213)
+states/End/position = Vector2(1145, 115)
+states/Hit/node = SubResource("AnimationNodeBlendSpace2D_iwlup")
+states/Hit/position = Vector2(1140, -213)
+states/Idle/node = SubResource("AnimationNodeBlendSpace2D_xybcc")
+states/Idle/position = Vector2(436, 294)
+states/Idle_Agro/node = SubResource("AnimationNodeBlendSpace2D_x3qbn")
+states/Idle_Agro/position = Vector2(444, -108)
+states/Shoot/node = SubResource("AnimationNodeBlendSpace2D_pf6dn")
+states/Shoot/position = Vector2(444, -275)
+states/Shoot_Walk/node = SubResource("AnimationNodeBlendSpace2D_sdkpj")
+states/Shoot_Walk/position = Vector2(704, -309)
+states/Walk/node = SubResource("AnimationNodeBlendSpace2D_2lv10")
+states/Walk/position = Vector2(752, 294)
+states/Walk_Agro/node = SubResource("AnimationNodeBlendSpace2D_gxdb0")
+states/Walk_Agro/position = Vector2(709, -108)
+transitions = ["Idle", "Walk", SubResource("AnimationNodeStateMachineTransition_hylyh"), "Walk", "Idle", SubResource("AnimationNodeStateMachineTransition_ume00"), "Idle", "Agro", SubResource("AnimationNodeStateMachineTransition_flera"), "Walk", "Agro", SubResource("AnimationNodeStateMachineTransition_j5a1v"), "Agro", "Idle_Agro", SubResource("AnimationNodeStateMachineTransition_2ktxy"), "Agro", "Walk_Agro", SubResource("AnimationNodeStateMachineTransition_jxfiy"), "Walk_Agro", "Idle_Agro", SubResource("AnimationNodeStateMachineTransition_8yvpq"), "Idle_Agro", "Walk_Agro", SubResource("AnimationNodeStateMachineTransition_fipv8"), "Idle_Agro", "Deagro", SubResource("AnimationNodeStateMachineTransition_uvg6d"), "Walk_Agro", "Deagro", SubResource("AnimationNodeStateMachineTransition_etn7i"), "Idle_Agro", "Shoot", SubResource("AnimationNodeStateMachineTransition_2cihm"), "Walk_Agro", "Shoot_Walk", SubResource("AnimationNodeStateMachineTransition_ll7ab"), "Shoot", "Shoot_Walk", SubResource("AnimationNodeStateMachineTransition_0bq21"), "Shoot_Walk", "Shoot", SubResource("AnimationNodeStateMachineTransition_fod84"), "Shoot", "Idle_Agro", SubResource("AnimationNodeStateMachineTransition_bn2jc"), "Shoot_Walk", "Walk_Agro", SubResource("AnimationNodeStateMachineTransition_x8tyh"), "Deagro", "Walk", SubResource("AnimationNodeStateMachineTransition_3ogsp"), "Deagro", "Idle", SubResource("AnimationNodeStateMachineTransition_w0dx8"), "Idle", "Hit", SubResource("AnimationNodeStateMachineTransition_mv3mm"), "Walk", "Hit", SubResource("AnimationNodeStateMachineTransition_prvro"), "Deagro", "Hit", SubResource("AnimationNodeStateMachineTransition_88ghp"), "Agro", "Hit", SubResource("AnimationNodeStateMachineTransition_piwow"), "Walk_Agro", "Hit", SubResource("AnimationNodeStateMachineTransition_x7saa"), "Idle_Agro", "Hit", SubResource("AnimationNodeStateMachineTransition_14q7u"), "Shoot_Walk", "Hit", SubResource("AnimationNodeStateMachineTransition_d4xcr"), "Shoot", "Hit", SubResource("AnimationNodeStateMachineTransition_g3enh"), "Hit", "Death", SubResource("AnimationNodeStateMachineTransition_838rl"), "Hit", "Idle_Agro", SubResource("AnimationNodeStateMachineTransition_fb2k1"), "Hit", "Idle", SubResource("AnimationNodeStateMachineTransition_04gli"), "Start", "Idle", SubResource("AnimationNodeStateMachineTransition_bpuda")]
+graph_offset = Vector2(-10, -362.773)
+
+[node name="Fish_Gunner" type="CharacterBody2D" groups=["fish_gunner"]]
+collision_layer = 2
+collision_mask = 169
+script = ExtResource("1_qjjec")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 30.5)
+shape = SubResource("RectangleShape2D_c8j50")
+
+[node name="Flip" type="Node2D" parent="."]
+position = Vector2(0, 26)
+scale = Vector2(0.75, 0.75)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Flip"]
+position = Vector2(38, 0)
+scale = Vector2(0.4, 0.4)
+sprite_frames = SubResource("SpriteFrames_jldq5")
+animation = &"1. Idle"
+frame = 5
+frame_progress = 0.0931946
+
+[node name="Markers" type="Node2D" parent="Flip"]
+
+[node name="Test marker" type="Marker2D" parent="Flip/Markers"]
+position = Vector2(169, -29)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_oupry")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_oupry")
+}
+tree_root = SubResource("AnimationNodeStateMachine_3aiua")
+anim_player = NodePath("../AnimationPlayer")
+parameters/conditions/Agro = false
+parameters/conditions/Deagro = false
+parameters/conditions/Death = false
+parameters/conditions/Hit = false
+parameters/conditions/Idle = false
+parameters/conditions/Idle_Agro = false
+parameters/conditions/Shoot = false
+parameters/conditions/Shoot_Walk = false
+parameters/conditions/Walk = false
+parameters/conditions/Walk_Agro = false
+parameters/Agro/blend_position = Vector2(0, 0)
+parameters/Deagro/blend_position = Vector2(0, 0)
+parameters/Death/blend_position = Vector2(0, 0)
+parameters/Hit/blend_position = Vector2(0, 0)
+parameters/Idle/blend_position = Vector2(-0.991047, 0.0582011)
+parameters/Idle_Agro/blend_position = Vector2(-0.500448, 0.546559)
+parameters/Shoot/blend_position = Vector2(0, 0)
+parameters/Shoot_Walk/blend_position = Vector2(0, 0)
+parameters/Walk/blend_position = Vector2(0, 0)
+parameters/Walk_Agro/blend_position = Vector2(0, 0)
+
+[node name="FSM" type="Node" parent="." node_paths=PackedStringArray("initial_state")]
+script = ExtResource("266_lxw5g")
+initial_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("268_t57dw")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="Walk" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("270_msfsm")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Agro" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("269_audi0")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="Agro_Idle" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("270_i78i5")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="Agro_walking" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("273_2on71")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="Agro_backing off" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("273_woxx7")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Shooting" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("271_7t7ux")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Shooting_walk" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("275_ji5fp")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Deagro" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("272_g1bfg")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Hit" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("273_dnhak")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="F_Death" type="Node" parent="FSM" node_paths=PackedStringArray("animation_tree", "entity")]
+script = ExtResource("380_nil0e")
+animation_tree = NodePath("../../AnimationTree")
+entity = NodePath("../..")
+
+[node name="Can_shoot" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="timeout" from="Can_shoot" to="." method="_on_can_shoot_timeout"]

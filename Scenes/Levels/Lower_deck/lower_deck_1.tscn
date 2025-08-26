@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5lstdmb4lbos"]
+
+[ext_resource type="PackedScene" uid="uid://c1nxpp4jtn7yv" path="res://Scenes/Levels/debug_level.tscn" id="1_bkuwe"]
+[ext_resource type="Script" path="res://Lower_Deck_1.gd" id="2_1gaqt"]
+
+[node name="Lower_Deck_1" instance=ExtResource("1_bkuwe")]
+script = ExtResource("2_1gaqt")
+
+[node name="Player" parent="." index="7"]
+position = Vector2(-1617, -227)

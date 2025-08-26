@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://c086pkakbb6x6"]
+
+[ext_resource type="Texture2D" uid="uid://cth4y52auiiao" path="res://Art/Objects/Decor/Furniture/Cabin 3.png" id="1_ksdyu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4qnlb"]
+size = Vector2(137, 20)
+
+[node name="Cabin 3" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_4qnlb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 40)
+texture = ExtResource("1_ksdyu")

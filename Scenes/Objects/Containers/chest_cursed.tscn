@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3 uid="uid://cn5gwbpoxmlp7"]
+
+[ext_resource type="PackedScene" uid="uid://bipdnyrxfynkc" path="res://Scenes/Objects/Containers/chest.tscn" id="1_wc0jv"]
+[ext_resource type="Script" uid="uid://me6bjk7ckr2i" path="res://Chest_Cursed.gd" id="2_ondb6"]
+[ext_resource type="Texture2D" uid="uid://djw7s6yq8mhdc" path="res://Art/Objects/Containers/Chest 2.png" id="3_jqrse"]
+[ext_resource type="Texture2D" uid="uid://wvu6f6xsp3pa" path="res://Art/Effects/Light/9578af169d1ecc60aa5774fac7ef193e.jpg" id="4_8jykn"]
+
+[sub_resource type="Animation" id="Animation_001c5"]
+resource_name = "Hit"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_b473l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_anqj6"]
+_data = {
+&"Hit": SubResource("Animation_001c5"),
+&"RESET": SubResource("Animation_b473l")
+}
+
+[node name="Chest_Cursed" instance=ExtResource("1_wc0jv")]
+script = ExtResource("2_ondb6")
+hp = 100
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("3_jqrse")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+root_node = NodePath("../CollisionShape2D")
+libraries = {
+&"": SubResource("AnimationLibrary_anqj6")
+}
+
+[node name="PointLight2D" type="PointLight2D" parent="." index="3"]
+color = Color(0.309804, 0.623529, 0, 1)
+energy = 0.5
+texture = ExtResource("4_8jykn")

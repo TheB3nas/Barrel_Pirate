@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://k45fub7yf24"]
+
+[ext_resource type="Texture2D" uid="uid://fauphxafdnxy" path="res://Art/Objects/Decor/Furniture/Red sofa 1.png" id="1_l12ab"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_smpro"]
+size = Vector2(254, 52)
+
+[node name="Red Sofa" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -31)
+shape = SubResource("RectangleShape2D_smpro")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_l12ab")

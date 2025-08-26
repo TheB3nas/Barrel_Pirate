@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkvo28w421ipw"]
+
+[ext_resource type="Texture2D" uid="uid://lkeccrqaa0m3" path="res://Art/Objects/Decor/Furniture/Barrel side.png" id="1_0b16a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pce2v"]
+size = Vector2(63, 51)
+
+[node name="Barrel side" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 35
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -15.5)
+shape = SubResource("RectangleShape2D_pce2v")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0b16a")

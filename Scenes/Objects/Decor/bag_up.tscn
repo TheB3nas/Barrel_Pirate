@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4il1x2mhcn11"]
+
+[ext_resource type="Texture2D" uid="uid://8royybhew5xr" path="res://Art/Objects/Decor/Misc/Bag up.png" id="1_omkwp"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1mwf5"]
+radius = 23.5
+height = 68.0
+
+[node name="Bag up" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.5, 0)
+shape = SubResource("CapsuleShape2D_1mwf5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4, 4)
+texture = ExtResource("1_omkwp")

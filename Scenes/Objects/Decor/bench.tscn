@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://brmfb35udmywl"]
+
+[ext_resource type="Texture2D" uid="uid://lk1322qgsguh" path="res://Art/Objects/Decor/Chairs/Bench.png" id="1_s5ii4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aukvu"]
+size = Vector2(9, 146)
+
+[node name="Bench" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, 24)
+texture = ExtResource("1_s5ii4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -5.5)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_aukvu")

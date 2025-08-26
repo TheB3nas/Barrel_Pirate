@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dojrb0mjkfh3k"]
+
+[ext_resource type="Texture2D" uid="uid://cxhdrke3oo6yu" path="res://Art/Objects/Decor/Furniture/Box covered.png" id="1_mcmo0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4o1s4"]
+size = Vector2(70, 21)
+
+[node name="Box Covered" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -13.5)
+shape = SubResource("RectangleShape2D_4o1s4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 2)
+texture = ExtResource("1_mcmo0")

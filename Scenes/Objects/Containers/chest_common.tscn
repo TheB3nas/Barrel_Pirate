@@ -1,0 +1,196 @@
+[gd_scene load_steps=16 format=3 uid="uid://b8khstqut1qy"]
+
+[ext_resource type="PackedScene" uid="uid://bipdnyrxfynkc" path="res://Scenes/Objects/Containers/chest.tscn" id="1_t8j1n"]
+[ext_resource type="Shader" uid="uid://d3jwne6amm57y" path="res://Hit_flash.tres" id="2_0fuja"]
+[ext_resource type="Texture2D" uid="uid://cn8hdwviuk53o" path="res://Art/Objects/Containers/Chest 3.png" id="2_kfsob"]
+[ext_resource type="Script" path="res://Scenes/Objects/Containers/chest_common.gd" id="2_rvklx"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_drqbj"]
+shader = ExtResource("2_0fuja")
+shader_parameter/Enabled = false
+shader_parameter/Tint = Color(1, 1, 1, 1)
+
+[sub_resource type="VisualShaderNodeColorParameter" id="VisualShaderNodeColorParameter_t7xek"]
+parameter_name = "Tint"
+default_value_enabled = true
+
+[sub_resource type="VisualShaderNodeBooleanParameter" id="VisualShaderNodeBooleanParameter_ahw4a"]
+parameter_name = "Enabled"
+default_value_enabled = true
+
+[sub_resource type="VisualShaderNodeIf" id="VisualShaderNodeIf_5jqmw"]
+default_input_values = [0, 0.0, 1, 1.0, 2, 1e-05, 3, Vector3(0, 0, 0), 4, Vector3(0, 0, 0), 5, Vector3(0, 0, 0)]
+
+[sub_resource type="VisualShaderNodeInput" id="VisualShaderNodeInput_redb5"]
+input_name = "color"
+
+[sub_resource type="VisualShader" id="VisualShader_6ejqt"]
+code = "shader_type canvas_item;
+render_mode blend_mix;
+
+uniform bool Enabled = false;
+uniform vec4 Tint : source_color = vec4(1.000000, 1.000000, 1.000000, 1.000000);
+
+
+
+void fragment() {
+// BooleanParameter:3
+	bool n_out3p0 = Enabled;
+
+
+// ColorParameter:2
+	vec4 n_out2p0 = Tint;
+
+
+// Input:5
+	vec4 n_out5p0 = COLOR;
+
+
+	vec3 n_out4p0;
+// If:4
+	float n_in4p1 = 1.00000;
+	float n_in4p2 = 0.00001;
+	if(abs((n_out3p0 ? 1.0 : 0.0) - n_in4p1) < n_in4p2)
+	{
+		n_out4p0 = vec3(n_out2p0.xyz);
+	}
+	else if((n_out3p0 ? 1.0 : 0.0) < n_in4p1)
+	{
+		n_out4p0 = vec3(n_out5p0.xyz);
+	}
+	else
+	{
+		n_out4p0 = vec3(n_out5p0.xyz);
+	}
+
+
+// Output:0
+	COLOR.rgb = n_out4p0;
+
+
+}
+"
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(760, 100)
+nodes/fragment/2/node = SubResource("VisualShaderNodeColorParameter_t7xek")
+nodes/fragment/2/position = Vector2(80, 280)
+nodes/fragment/3/node = SubResource("VisualShaderNodeBooleanParameter_ahw4a")
+nodes/fragment/3/position = Vector2(80, 100)
+nodes/fragment/4/node = SubResource("VisualShaderNodeIf_5jqmw")
+nodes/fragment/4/position = Vector2(400, 100)
+nodes/fragment/5/node = SubResource("VisualShaderNodeInput_redb5")
+nodes/fragment/5/position = Vector2(80, 480)
+nodes/fragment/connections = PackedInt32Array(3, 0, 4, 0, 2, 0, 4, 3, 4, 0, 0, 0, 5, 0, 4, 4, 5, 0, 4, 5)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_r7qmy"]
+resource_local_to_scene = true
+shader = SubResource("VisualShader_6ejqt")
+shader_parameter/Enabled = false
+shader_parameter/Tint = Color(1, 1, 1, 1)
+
+[sub_resource type="Animation" id="Animation_m0rsg"]
+resource_name = "Destroy"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1.3), Vector2(1, 1)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_001c5"]
+resource_name = "Hit"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1.3), Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_b473l"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:material:shader_parameter/Enabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_anqj6"]
+_data = {
+"Destroy": SubResource("Animation_m0rsg"),
+"Hit": SubResource("Animation_001c5"),
+"RESET": SubResource("Animation_b473l")
+}
+
+[node name="Chest_common" instance=ExtResource("1_t8j1n")]
+material = SubResource("ShaderMaterial_drqbj")
+script = ExtResource("2_rvklx")
+hp = 50
+
+[node name="Sprite2D" parent="." index="1"]
+material = SubResource("ShaderMaterial_r7qmy")
+texture = ExtResource("2_kfsob")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+libraries = {
+"": SubResource("AnimationLibrary_anqj6")
+}

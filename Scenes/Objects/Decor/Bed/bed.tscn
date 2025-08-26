@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=3 uid="uid://cm4id118b7b5y"]
+
+[ext_resource type="Script" path="res://Bed.gd" id="1_njec5"]
+[ext_resource type="Texture2D" uid="uid://cquwoyrseiiks" path="res://Art/Objects/Decor/Bed/Bed frame.png" id="2_fx8bo"]
+[ext_resource type="Texture2D" uid="uid://dsj82sv5upkf5" path="res://Art/Objects/Decor/Bed/Pillow 1.png" id="3_7q6ny"]
+[ext_resource type="Texture2D" uid="uid://dq5fd1m0cvfrn" path="res://Art/Objects/Decor/Bed/Pillow 2.png" id="4_ovl8e"]
+[ext_resource type="Texture2D" uid="uid://b42j8kuk35y3v" path="res://Art/Objects/Decor/Bed/Pillow 3.png" id="5_vluxl"]
+[ext_resource type="Texture2D" uid="uid://dvgnq4iq4hmyh" path="res://Art/Objects/Decor/Bed/Memis.png" id="6_4w6kj"]
+[ext_resource type="Texture2D" uid="uid://bqa17s7vb7vqk" path="res://Art/Objects/Decor/Bed/Sheet 1.png" id="6_abh3f"]
+[ext_resource type="Texture2D" uid="uid://iw5f6nlpc4cs" path="res://Art/Objects/Decor/Bed/Sheet 2.png" id="7_kw1k6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_csc02"]
+size = Vector2(124, 80)
+
+[node name="Bed" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 11
+script = ExtResource("1_njec5")
+
+[node name="Frame" type="Sprite2D" parent="."]
+texture = ExtResource("2_fx8bo")
+
+[node name="Pillow 1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-7, -67)
+texture = ExtResource("3_7q6ny")
+
+[node name="Pillow 2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-8, -63)
+texture = ExtResource("4_ovl8e")
+
+[node name="Pillow 3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-7, -68)
+texture = ExtResource("5_vluxl")
+
+[node name="Memis" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-46, -49)
+texture = ExtResource("6_4w6kj")
+
+[node name="Sheet 1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-3, 25)
+texture = ExtResource("6_abh3f")
+
+[node name="Sheet 2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1, 27)
+texture = ExtResource("7_kw1k6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4.5, -59.5)
+shape = SubResource("RectangleShape2D_csc02")

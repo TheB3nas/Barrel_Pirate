@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://o2qh8gh5ds10"]
+
+[ext_resource type="Texture2D" uid="uid://ciau6vybh13lo" path="res://Art/Objects/Decor/Furniture/Green Cabin 5.png" id="1_ct652"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rk0v7"]
+size = Vector2(76, 39)
+
+[node name="Green cabin 5" type="StaticBody2D"]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, 9.5)
+shape = SubResource("RectangleShape2D_rk0v7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 45)
+texture = ExtResource("1_ct652")

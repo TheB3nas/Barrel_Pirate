@@ -1,0 +1,444 @@
+[gd_scene load_steps=44 format=3 uid="uid://dtx82tnhpbgd6"]
+
+[ext_resource type="PackedScene" uid="uid://c1nxpp4jtn7yv" path="res://Scenes/Levels/debug_level.tscn" id="1_qdjio"]
+[ext_resource type="TileSet" uid="uid://dtpianavn04wn" path="res://Tilemaps/Ship_tiles_1.tres" id="2_stqox"]
+[ext_resource type="Texture2D" uid="uid://dca6ouvhj05" path="res://Art/Objects/Decor/Carpets/Rug_poor_2.png" id="3_lub77"]
+[ext_resource type="Texture2D" uid="uid://bhvdarqnifpav" path="res://Art/Objects/Decor/Carpets/Rug_poor_1.png" id="4_rvt1f"]
+[ext_resource type="Texture2D" uid="uid://crf0rkdwxxhou" path="res://Art/Objects/Decor/Carpets/Rug_poor_orange.png" id="5_vv6wy"]
+[ext_resource type="PackedScene" uid="uid://brmfb35udmywl" path="res://Scenes/Objects/Decor/bench.tscn" id="6_t3jms"]
+[ext_resource type="PackedScene" uid="uid://cm4id118b7b5y" path="res://Scenes/Objects/Decor/Bed/bed.tscn" id="6_tudpi"]
+[ext_resource type="PackedScene" uid="uid://ddrbeydyisqu2" path="res://Scenes/Objects/Decor/stool.tscn" id="7_57j8e"]
+[ext_resource type="PackedScene" uid="uid://e85iqpfe1x2a" path="res://Scenes/Objects/Decor/Bed/hammock.tscn" id="9_c06qq"]
+[ext_resource type="PackedScene" uid="uid://b0s32sfdjabfr" path="res://Scenes/Objects/Decor/Bed/Bed 2.tscn" id="10_laffw"]
+[ext_resource type="PackedScene" uid="uid://wda1he5addmu" path="res://Scenes/Objects/Decor/cabin_1.tscn" id="11_pwq8d"]
+[ext_resource type="PackedScene" uid="uid://c086pkakbb6x6" path="res://Scenes/Objects/Decor/cabin_3.tscn" id="12_ef86o"]
+[ext_resource type="PackedScene" uid="uid://gxrwppcmonx6" path="res://Scenes/Objects/Decor/table.tscn" id="13_h7nwa"]
+[ext_resource type="PackedScene" uid="uid://bc5g7trufrm2d" path="res://Scenes/Objects/Decor/round_table_1.tscn" id="14_i1gjh"]
+[ext_resource type="PackedScene" uid="uid://mavvp0jpjpoi" path="res://Scenes/Objects/Decor/long_table.tscn" id="15_4occn"]
+[ext_resource type="PackedScene" uid="uid://kj46302doqf6" path="res://Scenes/Objects/Containers/wooden_box.tscn" id="16_doj5h"]
+[ext_resource type="Texture2D" uid="uid://dpl0lr51bgu5r" path="res://Art/Objects/Decor/Misc/Big bottle.png" id="16_hdms3"]
+[ext_resource type="Texture2D" uid="uid://cxuyjli1ng3pu" path="res://Art/Objects/Decor/Misc/Small bottle plug.png" id="17_bxbwq"]
+[ext_resource type="PackedScene" uid="uid://bks8sfdt4c3d5" path="res://Scenes/Objects/Containers/barrel.tscn" id="17_rytvs"]
+[ext_resource type="Texture2D" uid="uid://cs5i07fjak1ig" path="res://Art/Objects/Decor/Misc/Plate.png" id="18_p3eyl"]
+[ext_resource type="Texture2D" uid="uid://duqe0qqx7ht32" path="res://Art/Objects/Decor/Misc/Mug.png" id="19_vmd06"]
+[ext_resource type="Texture2D" uid="uid://bf4fpm6l85r0w" path="res://Art/Objects/Decor/Misc/Big mug.png" id="20_xrn6i"]
+[ext_resource type="Texture2D" uid="uid://cs68v2ejff4dd" path="res://Art/Objects/Decor/Misc/Broom.png" id="21_sskwx"]
+[ext_resource type="Texture2D" uid="uid://ps0ftbwv0ni" path="res://Art/Objects/Decor/Misc/Fish 1.png" id="22_sxtf7"]
+[ext_resource type="Texture2D" uid="uid://c215kbhknmf5p" path="res://Art/Objects/Decor/Misc/Map.png" id="23_4rjmu"]
+[ext_resource type="Texture2D" uid="uid://bqhw0qvi7w77q" path="res://Art/Objects/Decor/Misc/Dagger 1.png" id="24_hnsyo"]
+[ext_resource type="Texture2D" uid="uid://dfi5ughjq5e6n" path="res://Art/Objects/Decor/Cards/Hand front 1.png" id="25_7utxq"]
+[ext_resource type="Texture2D" uid="uid://boixskysidv2" path="res://Art/Objects/Decor/Cards/Card pile 2.png" id="26_prj4k"]
+[ext_resource type="Texture2D" uid="uid://bc3kdvweolh4l" path="res://Art/Objects/Decor/Cards/Hand front 2.png" id="27_x6i20"]
+[ext_resource type="Texture2D" uid="uid://doskuli8xu5cg" path="res://Art/Objects/Decor/Cards/Card back 3.png" id="28_c2qs7"]
+[ext_resource type="Texture2D" uid="uid://bhin7xdjaggpt" path="res://Art/Objects/Decor/Misc/Small bottle.png" id="29_4dst4"]
+[ext_resource type="Texture2D" uid="uid://crfxqj6qwbs08" path="res://Art/Objects/Decor/Misc/Dagger 2.png" id="30_qicga"]
+[ext_resource type="Texture2D" uid="uid://qjdasd4gc6fn" path="res://Art/Objects/Decor/Misc/Big bottle plug.png" id="31_1yx6w"]
+[ext_resource type="Texture2D" uid="uid://blikpqp75lrqo" path="res://Art/Objects/Decor/Misc/Books.png" id="32_erflq"]
+[ext_resource type="PackedScene" uid="uid://cn3ugklubxqku" path="res://Scenes/Objects/Light/lantern_no_hook.tscn" id="33_xdi8x"]
+[ext_resource type="PackedScene" uid="uid://dalxh71ydqenr" path="res://Scenes/Objects/Light/lantern_with_hook.tscn" id="34_dse6n"]
+[ext_resource type="PackedScene" uid="uid://c7kjq5701lfnm" path="res://Scenes/Objects/Light/lantern_with_hook_3.tscn" id="35_5bo5a"]
+[ext_resource type="PackedScene" uid="uid://xwhp1d4yoqq6" path="res://Scenes/Enemies/drunk_crew.tscn" id="38_hf7kd"]
+[ext_resource type="PackedScene" uid="uid://dm6jevwe2eg43" path="res://Scenes/Enemies/fish_gunner.tscn" id="39_84vox"]
+
+[sub_resource type="Gradient" id="Gradient_7p2wf"]
+offsets = PackedFloat32Array(0, 0.803371)
+colors = PackedColorArray(1, 1, 1, 0.113725, 0, 0, 0, 0.552941)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_xvg7u"]
+gradient = SubResource("Gradient_7p2wf")
+
+[sub_resource type="Gradient" id="Gradient_gedmc"]
+offsets = PackedFloat32Array(0, 0.314607, 0.837079, 1)
+colors = PackedColorArray(0, 0, 0, 0, 0, 0, 0, 0.517647, 0.760784, 0.760784, 0.760784, 0.392157, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ikb0l"]
+gradient = SubResource("Gradient_gedmc")
+
+[node name="Lower_deck_3" instance=ExtResource("1_qdjio")]
+
+[node name="Enemies#Drunk_crew" parent="." index="0" instance=ExtResource("38_hf7kd")]
+position = Vector2(1052, 184)
+
+[node name="Enemies#Drunk_crew2" parent="." index="1" instance=ExtResource("38_hf7kd")]
+position = Vector2(455, 588)
+
+[node name="Enemies#Drunk_crew3" parent="." index="2" instance=ExtResource("38_hf7kd")]
+position = Vector2(1352, 102)
+
+[node name="Enemies#Drunk_crew4" parent="." index="3" instance=ExtResource("38_hf7kd")]
+position = Vector2(967, -261)
+
+[node name="Enemies#Drunk_crew5" parent="." index="4" instance=ExtResource("38_hf7kd")]
+position = Vector2(427, -117)
+
+[node name="Enemies#Drunk_crew6" parent="." index="5" instance=ExtResource("38_hf7kd")]
+position = Vector2(-73, -407)
+
+[node name="Enemies#Fish_Gunner" parent="." index="6" instance=ExtResource("39_84vox")]
+position = Vector2(1303, 374)
+
+[node name="Crates#Wooden_box" parent="." index="7" instance=ExtResource("16_doj5h")]
+position = Vector2(-264, -558)
+
+[node name="Crates#Wooden_box2" parent="." index="8" instance=ExtResource("16_doj5h")]
+position = Vector2(1256, -572)
+
+[node name="Mug" type="Sprite2D" parent="." index="9"]
+position = Vector2(489, -607)
+texture = ExtResource("19_vmd06")
+
+[node name="Crates#Wooden_box3" parent="." index="10" instance=ExtResource("16_doj5h")]
+position = Vector2(1172, -508)
+
+[node name="Crates#Wooden_box4" parent="." index="11" instance=ExtResource("16_doj5h")]
+position = Vector2(1580, 830)
+
+[node name="Crates#Wooden_box5" parent="." index="12" instance=ExtResource("16_doj5h")]
+position = Vector2(-595, 512)
+
+[node name="Crates#Barrel" parent="." index="13" instance=ExtResource("17_rytvs")]
+position = Vector2(-46, -561)
+
+[node name="Crates#Barrel2" parent="." index="14" instance=ExtResource("17_rytvs")]
+position = Vector2(-84, -524)
+
+[node name="Crates#Barrel3" parent="." index="15" instance=ExtResource("17_rytvs")]
+position = Vector2(-3, -522)
+
+[node name="Crates#Barrel4" parent="." index="16" instance=ExtResource("17_rytvs")]
+position = Vector2(-238, -499)
+
+[node name="Crates#Barrel5" parent="." index="17" instance=ExtResource("17_rytvs")]
+position = Vector2(-466, -558)
+
+[node name="Crates#Barrel6" parent="." index="18" instance=ExtResource("17_rytvs")]
+position = Vector2(1294, -494)
+
+[node name="Crates#Barrel7" parent="." index="19" instance=ExtResource("17_rytvs")]
+position = Vector2(1464, -564)
+
+[node name="Crates#Barrel8" parent="." index="20" instance=ExtResource("17_rytvs")]
+position = Vector2(1623, -206)
+
+[node name="Crates#Barrel9" parent="." index="21" instance=ExtResource("17_rytvs")]
+position = Vector2(1571, -166)
+
+[node name="Crates#Barrel10" parent="." index="22" instance=ExtResource("17_rytvs")]
+position = Vector2(1622, -134)
+
+[node name="Crates#Barrel11" parent="." index="23" instance=ExtResource("17_rytvs")]
+position = Vector2(728, 250)
+
+[node name="Crates#Barrel12" parent="." index="24" instance=ExtResource("17_rytvs")]
+position = Vector2(693, 283)
+
+[node name="Crates#Barrel13" parent="." index="25" instance=ExtResource("17_rytvs")]
+position = Vector2(773, 286)
+
+[node name="Crates#Barrel14" parent="." index="26" instance=ExtResource("17_rytvs")]
+position = Vector2(-469, 864)
+
+[node name="Crates#Barrel15" parent="." index="27" instance=ExtResource("17_rytvs")]
+position = Vector2(-617, 580)
+
+[node name="Crates#Barrel16" parent="." index="28" instance=ExtResource("17_rytvs")]
+position = Vector2(1471, 858)
+
+[node name="Crates#Barrel17" parent="." index="29" instance=ExtResource("17_rytvs")]
+position = Vector2(-725, -64)
+
+[node name="Crates#Barrel18" parent="." index="30" instance=ExtResource("17_rytvs")]
+position = Vector2(-803, -68)
+
+[node name="Crates#Barrel19" parent="." index="31" instance=ExtResource("17_rytvs")]
+position = Vector2(-763, -32)
+
+[node name="Crates#Barrel20" parent="." index="32" instance=ExtResource("17_rytvs")]
+position = Vector2(-583, 606)
+
+[node name="Practical light#Lantern_no hook" parent="." index="33" instance=ExtResource("33_xdi8x")]
+position = Vector2(-82, -150)
+
+[node name="Practical light#Lantern_no hook2" parent="." index="34" instance=ExtResource("33_xdi8x")]
+position = Vector2(466, 220)
+
+[node name="Practical light#Lantern_no hook5" parent="." index="35" instance=ExtResource("33_xdi8x")]
+position = Vector2(-598, 837)
+
+[node name="Practical light#Lantern_no hook3" parent="." index="36" instance=ExtResource("33_xdi8x")]
+position = Vector2(210, -635)
+
+[node name="Practical light#Lantern_no hook4" parent="." index="37" instance=ExtResource("33_xdi8x")]
+position = Vector2(803, -633)
+
+[node name="Practical light#Lantern_with hook" parent="." index="38" instance=ExtResource("34_dse6n")]
+position = Vector2(1647, -294)
+
+[node name="Practical light#Lantern_with hook3" parent="." index="39" instance=ExtResource("34_dse6n")]
+position = Vector2(-647, -236)
+scale = Vector2(-1, 1)
+
+[node name="Practical light#Lantern_with hook2" parent="." index="40" instance=ExtResource("34_dse6n")]
+position = Vector2(1647, 586)
+
+[node name="Practical light#Lantern_with hook 3" parent="." index="41" instance=ExtResource("35_5bo5a")]
+position = Vector2(-94, 903)
+
+[node name="Practical light#Lantern_with hook 4" parent="." index="42" instance=ExtResource("35_5bo5a")]
+position = Vector2(154, 903)
+
+[node name="Practical light#Lantern_with hook 5" parent="." index="43" instance=ExtResource("35_5bo5a")]
+position = Vector2(394, 903)
+
+[node name="Practical light#Lantern_with hook 6" parent="." index="44" instance=ExtResource("35_5bo5a")]
+position = Vector2(642, 903)
+
+[node name="Practical light#Lantern_with hook 7" parent="." index="45" instance=ExtResource("35_5bo5a")]
+position = Vector2(885, 903)
+
+[node name="Practical light#Lantern_with hook 8" parent="." index="46" instance=ExtResource("35_5bo5a")]
+position = Vector2(1122, 903)
+
+[node name="Practical light#PointLight2D2" type="PointLight2D" parent="." index="47"]
+position = Vector2(-810.875, 125)
+scale = Vector2(9.56641, 10.4062)
+energy = 2.0
+blend_mode = 1
+texture = SubResource("GradientTexture2D_xvg7u")
+
+[node name="Practical light#PointLight2D" type="PointLight2D" parent="." index="48"]
+position = Vector2(1794, 124.875)
+scale = Vector2(1.75, 670.25)
+energy = 3.4
+blend_mode = 1
+texture = SubResource("GradientTexture1D_ikb0l")
+
+[node name="Decor#RugPoor2" type="Sprite2D" parent="." index="49"]
+position = Vector2(263, -347)
+rotation = -0.00424717
+texture = ExtResource("3_lub77")
+
+[node name="Decor#RugPoor1" type="Sprite2D" parent="." index="50"]
+position = Vector2(817, -363)
+rotation = 2.97415
+texture = ExtResource("4_rvt1f")
+
+[node name="Decor#RugPoorOrange" type="Sprite2D" parent="." index="51"]
+position = Vector2(941, 664)
+rotation = 0.728408
+texture = ExtResource("5_vv6wy")
+
+[node name="Decor#Bench" parent="." index="52" instance=ExtResource("6_t3jms")]
+position = Vector2(511, 293)
+
+[node name="Decor#Stool" parent="." index="53" instance=ExtResource("7_57j8e")]
+position = Vector2(-168, -82)
+
+[node name="Decor#Stool2" parent="." index="54" instance=ExtResource("7_57j8e")]
+position = Vector2(-91, -82)
+
+[node name="Decor#Stool3" parent="." index="55" instance=ExtResource("7_57j8e")]
+position = Vector2(-91, -200)
+
+[node name="Decor#Stool4" parent="." index="56" instance=ExtResource("7_57j8e")]
+position = Vector2(-231, -145)
+
+[node name="Decor#Stool5" parent="." index="57" instance=ExtResource("7_57j8e")]
+position = Vector2(368, 292)
+
+[node name="Decor#Stool8" parent="." index="58" instance=ExtResource("7_57j8e")]
+position = Vector2(378, 163)
+
+[node name="Decor#Stool9" parent="." index="59" instance=ExtResource("7_57j8e")]
+position = Vector2(523, 168)
+
+[node name="Decor#Stool10" parent="." index="60" instance=ExtResource("7_57j8e")]
+position = Vector2(1036, -143)
+
+[node name="Decor#Stool11" parent="." index="61" instance=ExtResource("7_57j8e")]
+position = Vector2(1154, -81)
+
+[node name="Decor#Cabin 1" parent="." index="62" instance=ExtResource("11_pwq8d")]
+position = Vector2(236, -608)
+
+[node name="Decor#Cabin 3" parent="." index="63" instance=ExtResource("11_pwq8d")]
+position = Vector2(767, -608)
+
+[node name="Decor#Cabin 4" parent="." index="64" instance=ExtResource("12_ef86o")]
+position = Vector2(502, -608)
+
+[node name="Decor#Bed2" parent="." index="65" instance=ExtResource("6_tudpi")]
+position = Vector2(373, -520)
+
+[node name="Decor#Bed5" parent="." index="66" instance=ExtResource("6_tudpi")]
+position = Vector2(109, -520)
+
+[node name="Decor#Hammock" parent="." index="67" instance=ExtResource("9_c06qq")]
+position = Vector2(-617, -511)
+rotation = -1.20428
+
+[node name="Decor#Hammock2" parent="." index="68" instance=ExtResource("9_c06qq")]
+position = Vector2(1615, -487)
+rotation = 1.20428
+
+[node name="Decor#Bed 2" parent="." index="69" instance=ExtResource("10_laffw")]
+position = Vector2(-216, 835)
+
+[node name="Decor#Bed 3" parent="." index="70" instance=ExtResource("10_laffw")]
+position = Vector2(20, 835)
+
+[node name="Decor#Bed 4" parent="." index="71" instance=ExtResource("10_laffw")]
+position = Vector2(276, 835)
+
+[node name="Decor#Bed 5" parent="." index="72" instance=ExtResource("10_laffw")]
+position = Vector2(512, 835)
+
+[node name="Decor#Bed 6" parent="." index="73" instance=ExtResource("10_laffw")]
+position = Vector2(774, 835)
+
+[node name="Decor#Bed 7" parent="." index="74" instance=ExtResource("10_laffw")]
+position = Vector2(1010, 835)
+
+[node name="Decor#Bed 8" parent="." index="75" instance=ExtResource("10_laffw")]
+position = Vector2(1223, 835)
+
+[node name="Decor#Bed3" parent="." index="76" instance=ExtResource("6_tudpi")]
+position = Vector2(639, -520)
+
+[node name="Decor#Bed4" parent="." index="77" instance=ExtResource("6_tudpi")]
+position = Vector2(904, -520)
+
+[node name="Decor#Table" parent="." index="78" instance=ExtResource("13_h7nwa")]
+position = Vector2(-128, -177)
+
+[node name="Decor#Table2" parent="." index="79" instance=ExtResource("13_h7nwa")]
+position = Vector2(1134, -177)
+
+[node name="Decor#Round table 1" parent="." index="80" instance=ExtResource("14_i1gjh")]
+position = Vector2(-587, 831)
+
+[node name="Decor#Long table" parent="." index="81" instance=ExtResource("15_4occn")]
+position = Vector2(467, 191)
+
+[node name="Decor#BigBottle" type="Sprite2D" parent="." index="82"]
+position = Vector2(334, 225)
+texture = ExtResource("16_hdms3")
+
+[node name="Decor#SmallBottlePlug" type="Sprite2D" parent="." index="83"]
+position = Vector2(352, 234)
+texture = ExtResource("17_bxbwq")
+
+[node name="Decor#Plate" type="Sprite2D" parent="." index="84"]
+position = Vector2(395, 249)
+texture = ExtResource("18_p3eyl")
+
+[node name="Decor#Plate2" type="Sprite2D" parent="." index="85"]
+position = Vector2(537, 201)
+texture = ExtResource("18_p3eyl")
+
+[node name="Decor#Plate3" type="Sprite2D" parent="." index="86"]
+position = Vector2(535, 250)
+texture = ExtResource("18_p3eyl")
+
+[node name="Decor#Mug" type="Sprite2D" parent="." index="87"]
+position = Vector2(379, 224)
+texture = ExtResource("19_vmd06")
+
+[node name="Decor#Mug3" type="Sprite2D" parent="." index="88"]
+position = Vector2(427, 255)
+texture = ExtResource("19_vmd06")
+
+[node name="Decor#Mug2" type="Sprite2D" parent="." index="89"]
+position = Vector2(572, 237)
+texture = ExtResource("19_vmd06")
+
+[node name="Decor#BigMug" type="Sprite2D" parent="." index="90"]
+position = Vector2(409, 210)
+texture = ExtResource("20_xrn6i")
+
+[node name="Decor#BigMug2" type="Sprite2D" parent="." index="91"]
+position = Vector2(606, 248)
+texture = ExtResource("20_xrn6i")
+
+[node name="Decor#Broom" type="Sprite2D" parent="." index="92"]
+position = Vector2(-528, -584)
+rotation = 0.0826619
+texture = ExtResource("21_sskwx")
+
+[node name="Decor#Fish1" type="Sprite2D" parent="." index="93"]
+position = Vector2(533, 250)
+scale = Vector2(0.732, 0.732)
+texture = ExtResource("22_sxtf7")
+
+[node name="Decor#Map" type="Sprite2D" parent="." index="94"]
+position = Vector2(-165, -134)
+rotation = -0.343065
+texture = ExtResource("23_4rjmu")
+
+[node name="Decor#Dagger1" type="Sprite2D" parent="." index="95"]
+position = Vector2(-190, -118)
+texture = ExtResource("24_hnsyo")
+
+[node name="Decor#BigMug3" type="Sprite2D" parent="." index="96"]
+position = Vector2(-145, -160)
+texture = ExtResource("20_xrn6i")
+
+[node name="Decor#SmallBottlePlug2" type="Sprite2D" parent="." index="97"]
+position = Vector2(-45, -136)
+texture = ExtResource("17_bxbwq")
+
+[node name="Decor#HandFront1" type="Sprite2D" parent="." index="98"]
+position = Vector2(1062, -142)
+rotation = 1.38902
+texture = ExtResource("25_7utxq")
+
+[node name="Decor#CardPile2" type="Sprite2D" parent="." index="99"]
+position = Vector2(1127, -159)
+scale = Vector2(0.880952, 0.821429)
+texture = ExtResource("26_prj4k")
+
+[node name="Decor#HandFront2" type="Sprite2D" parent="." index="100"]
+position = Vector2(1141, -112)
+texture = ExtResource("27_x6i20")
+
+[node name="Decor#CardBack3" type="Sprite2D" parent="." index="101"]
+position = Vector2(1203, -148)
+rotation = -0.612493
+texture = ExtResource("28_c2qs7")
+
+[node name="Decor#BigMug4" type="Sprite2D" parent="." index="102"]
+position = Vector2(1188, -121)
+texture = ExtResource("20_xrn6i")
+
+[node name="Decor#SmallBottle" type="Sprite2D" parent="." index="103"]
+position = Vector2(1088, -191)
+texture = ExtResource("29_4dst4")
+
+[node name="Decor#Dagger2" type="Sprite2D" parent="." index="104"]
+position = Vector2(278, -606)
+rotation = 1.46356
+texture = ExtResource("30_qicga")
+
+[node name="Decor#BigBottlePlug" type="Sprite2D" parent="." index="105"]
+position = Vector2(459, -633)
+scale = Vector2(0.916, 0.916)
+texture = ExtResource("31_1yx6w")
+
+[node name="Decor#Books" type="Sprite2D" parent="." index="106"]
+position = Vector2(722, -629)
+texture = ExtResource("32_erflq")
+
+[node name="Lights#DirectionalLight2D" type="DirectionalLight2D" parent="." index="107"]
+position = Vector2(314, -424)
+energy = 0.7
+blend_mode = 1
+
+[node name="TileMap3" type="TileMap" parent="." index="108"]
+tile_set = ExtResource("2_stqox")
+format = 2
+layer_0/name = "BG"
+layer_0/tile_data = PackedInt32Array(-393225, 0, 5, -327689, 0, 5, -262153, 0, 5, -196617, 0, 5, -131081, 0, 5, -65545, 0, 5, -9, 0, 5, 65527, 0, 5, 131063, 0, 5, 196599, 0, 5, 262135, 0, 5, 327671, 0, 5, 393207, 0, 5, 458743, 0, 5, 524279, 0, 5, -393224, 0, 5, -327688, 0, 5, -262152, 0, 5, -196616, 0, 5, -131080, 0, 5, -65544, 0, 5, -8, 0, 5, 65528, 0, 5, 131064, 0, 5, 196600, 0, 5, 262136, 0, 5, 327672, 0, 5, 393208, 0, 5, 458744, 0, 5, 524280, 0, 5, -393223, 0, 5, -327687, 0, 5, -262151, 0, 5, -196615, 0, 5, -131079, 0, 5, -65543, 0, 5, -7, 0, 5, 65529, 0, 5, 131065, 0, 5, 196601, 0, 5, 262137, 0, 5, 327673, 0, 5, 393209, 0, 5, 458745, 0, 5, 524281, 0, 5, -393222, 0, 5, -327686, 0, 5, -262150, 0, 5, -196614, 0, 5, -131078, 0, 5, -65542, 0, 5, -6, 0, 5, 65530, 0, 5, 131066, 0, 5, 196602, 0, 5, 262138, 0, 5, 327674, 0, 5, 393210, 0, 5, 458746, 0, 5, 524282, 0, 5, -393221, 0, 5, -327685, 0, 5, -262149, 0, 5, -196613, 0, 5, -131077, 0, 5, -65541, 0, 5, -5, 0, 5, 65531, 0, 5, 131067, 0, 5, 196603, 0, 5, 262139, 0, 5, 327675, 0, 5, 393211, 0, 5, 458747, 0, 5, 524283, 0, 5, -393220, 0, 5, -327684, 0, 5, -262148, 0, 5, -196612, 0, 5, -131076, 0, 5, -65540, 0, 5, -4, 0, 5, 65532, 0, 5, 131068, 0, 5, 196604, 0, 5, 262140, 0, 5, 327676, 0, 5, 393212, 0, 5, 458748, 0, 5, 524284, 0, 5, -393219, 0, 5, -327683, 0, 5, -262147, 0, 5, -196611, 0, 5, -131075, 0, 5, -65539, 0, 5, -3, 0, 5, 65533, 0, 5, 131069, 0, 5, 196605, 0, 5, 262141, 0, 5, 327677, 0, 5, 393213, 0, 5, 458749, 0, 5, 524285, 0, 5, -393218, 0, 5, -327682, 0, 5, -262146, 0, 5, -196610, 0, 5, -131074, 0, 5, -65538, 0, 5, -2, 0, 5, 65534, 0, 5, 131070, 0, 5, 196606, 0, 5, 262142, 0, 5, 327678, 0, 5, 393214, 0, 5, 458750, 0, 5, 524286, 0, 5, -393217, 0, 5, -327681, 0, 5, -262145, 0, 5, -196609, 0, 5, -131073, 0, 5, -65537, 0, 5, -1, 0, 5, 65535, 0, 5, 131071, 0, 5, 196607, 0, 5, 262143, 0, 5, 327679, 0, 5, 393215, 0, 5, 458751, 0, 5, 524287, 0, 5, -458752, 0, 5, -393216, 0, 5, -327680, 0, 5, -262144, 0, 5, -196608, 0, 5, -131072, 0, 5, -65536, 0, 5, 0, 0, 5, 65536, 0, 5, 131072, 0, 5, 196608, 0, 5, 262144, 0, 5, 327680, 0, 5, 393216, 0, 5, 458752, 0, 5, -458751, 0, 5, -393215, 0, 5, -327679, 0, 5, -262143, 0, 5, -196607, 0, 5, -131071, 0, 5, -65535, 0, 5, 1, 0, 5, 65537, 0, 5, 131073, 0, 5, 196609, 0, 5, 262145, 0, 5, 327681, 0, 5, 393217, 0, 5, 458753, 0, 5, -458750, 0, 5, -393214, 0, 5, -327678, 0, 5, -262142, 0, 5, -196606, 0, 5, -131070, 0, 5, -65534, 0, 5, 2, 0, 5, 65538, 0, 5, 131074, 0, 5, 196610, 0, 5, 262146, 0, 5, 327682, 0, 5, 393218, 0, 5, 458754, 0, 5, -458749, 0, 5, -393213, 0, 5, -327677, 0, 5, -262141, 0, 5, -196605, 0, 5, -131069, 0, 5, -65533, 0, 5, 3, 0, 5, 65539, 0, 5, 131075, 0, 5, 196611, 0, 5, 262147, 0, 5, 327683, 0, 5, 393219, 0, 5, 458755, 0, 5, -458748, 0, 5, -393212, 0, 5, -327676, 0, 5, -262140, 0, 5, -196604, 0, 5, -131068, 0, 5, -65532, 0, 5, 4, 0, 5, 65540, 0, 5, 131076, 0, 5, 196612, 0, 5, 262148, 0, 5, 327684, 0, 5, 393220, 0, 5, 458756, 0, 5, -458747, 0, 5, -393211, 0, 5, -327675, 0, 5, -262139, 0, 5, -196603, 0, 5, -131067, 0, 5, -65531, 0, 5, 5, 0, 5, 65541, 0, 5, 131077, 0, 5, 196613, 0, 5, 262149, 0, 5, 327685, 0, 5, 393221, 0, 5, 458757, 0, 5, -458746, 0, 5, -393210, 0, 5, -327674, 0, 5, -262138, 0, 5, -196602, 0, 5, -131066, 0, 5, -65530, 0, 5, 6, 0, 5, 65542, 0, 5, 131078, 0, 5, 196614, 0, 5, 262150, 0, 5, 327686, 0, 5, 393222, 0, 5, 458758, 0, 5, -458745, 0, 5, -393209, 0, 5, -327673, 0, 5, -262137, 0, 5, -196601, 0, 5, -131065, 0, 5, -65529, 0, 5, 7, 0, 5, 65543, 0, 5, 131079, 0, 5, 196615, 0, 5, 262151, 0, 5, 327687, 0, 5, 393223, 0, 5, 458759, 0, 5, -458744, 0, 5, -393208, 0, 5, -327672, 0, 5, -262136, 0, 5, -196600, 0, 5, -131064, 0, 5, -65528, 0, 5, 8, 0, 5, 65544, 0, 5, 131080, 0, 5, 196616, 0, 5, 262152, 0, 5, 327688, 0, 5, 393224, 0, 5, 458760, 0, 5, -458743, 0, 5, -393207, 0, 5, -327671, 0, 5, -262135, 0, 5, -196599, 0, 5, -131063, 0, 5, -65527, 0, 5, 9, 0, 5, 65545, 0, 5, 131081, 0, 5, 196617, 0, 5, 262153, 0, 5, 327689, 0, 5, 393225, 0, 5, 458761, 0, 5, -458742, 0, 5, -393206, 0, 5, -327670, 0, 5, -262134, 0, 5, -196598, 0, 5, -131062, 0, 5, -65526, 0, 5, 10, 0, 5, 65546, 0, 5, 131082, 0, 5, 196618, 0, 5, 262154, 0, 5, 327690, 0, 5, 393226, 0, 5, 458762, 0, 5, -458741, 0, 5, -393205, 0, 5, -327669, 0, 5, -262133, 0, 5, -196597, 0, 5, -131061, 0, 5, -65525, 0, 5, 11, 0, 5, 65547, 0, 5, 131083, 0, 5, 196619, 0, 5, 262155, 0, 5, 327691, 0, 5, 393227, 0, 5, 458763, 0, 5, -458740, 0, 5, -393204, 0, 5, -327668, 0, 5, -262132, 0, 5, -196596, 0, 5, -131060, 0, 5, -65524, 0, 5, 12, 0, 5, 65548, 0, 5, 131084, 0, 5, 196620, 0, 5, 262156, 0, 5, 327692, 0, 5, 393228, 0, 5, 458764, 0, 5)
+layer_1/name = "Walls"
+layer_1/tile_data = PackedInt32Array(65543, 131072, 2, 7, 131072, 1, -65529, 131072, 0, 131068, 0, 2, 65532, 0, 1, -4, 0, 0, 196614, 131072, 2, 131078, 131072, 1, 65542, 0, 3, 6, 65536, 1, -65530, 0, 4, -131066, 131072, 1, -196602, 131072, 0, 196613, 65536, 2, 131077, 65536, 1, 65541, 65536, 1, 5, 65536, 1, -65531, 65536, 1, -131067, 65536, 1, -196603, 65536, 0, 196612, 65536, 2, 131076, 65536, 1, 65540, 65536, 1, 4, 65536, 1, -65532, 65536, 1, -131068, 65536, 6, -196604, 196608, 0, 196611, 65536, 2, 131075, 65536, 1, 65539, 65536, 1, 3, 0, 6, -65533, 65536, 1, -131069, 65536, 1, -196605, 65536, 0, 196610, 65536, 2, 131074, 65536, 1, 65538, 65536, 1, 2, 65536, 1, -65534, 65536, 6, -131070, 65536, 1, -196606, 65536, 0, 196609, 65536, 2, 131073, 131072, 6, 65537, 65536, 1, 1, 65536, 1, -65535, 65536, 1, -131071, 65536, 1, -196607, 65536, 0, 196608, 65536, 2, 131072, 0, 6, 65536, 65536, 1, 0, 65536, 1, -65536, 131072, 6, -131072, 65536, 1, -196608, 65536, 0, 262143, 65536, 2, 196607, 65536, 1, 131071, 65536, 1, 65535, 65536, 6, -1, 131072, 6, -65537, 65536, 1, -131073, 196608, 0, 262142, 65536, 2, 196606, 65536, 1, 131070, 65536, 6, 65534, 65536, 1, -2, 65536, 1, -65538, 65536, 1, -131074, 65536, 0, 262141, 0, 2, 196605, 0, 1, 131069, 65536, 3, 65533, 65536, 1, -3, 65536, 4, -65539, 0, 1, -131075, 0, 0)
+layer_2/name = "decor"
+layer_2/tile_data = PackedInt32Array(196613, 327680, 2, 131077, 327680, 1, 65541, 327680, 1, 5, 327680, 1, -65531, 327680, 1, -131067, 327680, 1, -196603, 327680, 0, 262142, 327680, 2, 196606, 327680, 1, 131070, 327680, 1, 65534, 327680, 1, -2, 327680, 1, -65538, 327680, 1, -131074, 327680, 0)

@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://ccvd631o5ajft"]
+
+[ext_resource type="Script" path="res://Piano.gd" id="1_03pam"]
+[ext_resource type="Texture2D" uid="uid://r3dhiwxjuxh5" path="res://Art/Objects/Decor/Furniture/Piano 2.png" id="3_2gphw"]
+[ext_resource type="Texture2D" uid="uid://4vlacnxpp83i" path="res://Art/Objects/Decor/Furniture/Piano 3.png" id="4_28peq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_csc02"]
+size = Vector2(296, 46)
+
+[node name="Piano" type="StaticBody2D"]
+collision_layer = 8
+collision_mask = 35
+script = ExtResource("1_03pam")
+
+[node name="Piano 1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, 57.5)
+texture = ExtResource("4_28peq")
+
+[node name="Piano 2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, 57.5)
+texture = ExtResource("4_28peq")
+
+[node name="Piano 3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, 57.5)
+texture = ExtResource("3_2gphw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_csc02")
+
+[node name="Placeholder" type="Sprite2D" parent="."]
+position = Vector2(0, 60)
+texture = ExtResource("4_28peq")

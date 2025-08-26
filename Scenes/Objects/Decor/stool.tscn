@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddrbeydyisqu2"]
+
+[ext_resource type="Script" path="res://Stool.gd" id="1_tvku1"]
+[ext_resource type="Texture2D" uid="uid://d25w3drml2i0i" path="res://Art/Objects/Decor/Chairs/Stool.png" id="2_87bc0"]
+[ext_resource type="Texture2D" uid="uid://bcauojt8on4wb" path="res://Art/Objects/Decor/Chairs/Stool 2.png" id="3_1nvdx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_85d5c"]
+size = Vector2(61, 20)
+
+[node name="Stool" type="StaticBody2D"]
+script = ExtResource("1_tvku1")
+
+[node name="Place holder" type="Sprite2D" parent="."]
+position = Vector2(0, 26)
+texture = ExtResource("2_87bc0")
+
+[node name="Square" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, 26)
+texture = ExtResource("2_87bc0")
+
+[node name="Round" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, 26)
+texture = ExtResource("3_1nvdx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_85d5c")

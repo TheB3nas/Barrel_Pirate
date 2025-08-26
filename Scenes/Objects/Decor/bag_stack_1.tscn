@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bofg8rcw8euif"]
+
+[ext_resource type="Texture2D" uid="uid://bgu4gaebjv8iu" path="res://Art/Objects/Decor/Misc/Bag stack 1.png" id="1_in3uj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_23syo"]
+size = Vector2(91, 8)
+
+[node name="Bag stack 1" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, -11)
+shape = SubResource("RectangleShape2D_23syo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_in3uj")

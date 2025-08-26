@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dej8kogeugfok"]
+
+[ext_resource type="Texture2D" uid="uid://b2dpfjo6bj1s2" path="res://Art/Objects/Decor/Furniture/Red couch.png" id="1_7pq2u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i3bb5"]
+size = Vector2(140, 63)
+
+[node name="Red couch" type="StaticBody2D"]
+collision_layer = 64
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -27.5)
+shape = SubResource("RectangleShape2D_i3bb5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7pq2u")

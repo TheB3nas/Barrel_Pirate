@@ -1,0 +1,337 @@
+[gd_scene load_steps=77 format=3 uid="uid://dthv5nb8d2yti"]
+
+[ext_resource type="PackedScene" uid="uid://c8tb8ysx4m0ta" path="res://Scenes/Objects/Treasure/coin.tscn" id="1_wfmg6"]
+[ext_resource type="Texture2D" uid="uid://cjoygjwkmo13s" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00000.png" id="2_lbtn6"]
+[ext_resource type="Texture2D" uid="uid://bq6goo5rpnend" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00001.png" id="3_ybsvc"]
+[ext_resource type="Texture2D" uid="uid://bv86xtswr6ker" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00002.png" id="4_xfue0"]
+[ext_resource type="Texture2D" uid="uid://dbf14q1qxvyf0" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00003.png" id="5_6ia2s"]
+[ext_resource type="Texture2D" uid="uid://co2rsjv3fj525" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00004.png" id="6_lthdu"]
+[ext_resource type="Texture2D" uid="uid://cycqxlatcxttl" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00005.png" id="7_fat40"]
+[ext_resource type="Texture2D" uid="uid://dq5gi4i7gdod0" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00006.png" id="8_t7p47"]
+[ext_resource type="Texture2D" uid="uid://ypj6cdf54hjs" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00007.png" id="9_pxda2"]
+[ext_resource type="Texture2D" uid="uid://cmnraasxqeyu6" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00008.png" id="10_a1c1r"]
+[ext_resource type="Texture2D" uid="uid://d2nhfxssjin5i" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00009.png" id="11_1wgti"]
+[ext_resource type="Texture2D" uid="uid://byw8fihq8gq" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00010.png" id="12_jkgta"]
+[ext_resource type="Texture2D" uid="uid://c0fourij70rkr" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00011.png" id="13_6xp63"]
+[ext_resource type="Texture2D" uid="uid://cv7vln1x25q53" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00012.png" id="14_aqwlu"]
+[ext_resource type="Texture2D" uid="uid://b24pwqngrh7hm" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00013.png" id="15_dpchi"]
+[ext_resource type="Texture2D" uid="uid://3nqu8htwxu14" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00014.png" id="16_pd115"]
+[ext_resource type="Texture2D" uid="uid://bnva7sf8afrgj" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00015.png" id="17_qa1a5"]
+[ext_resource type="Texture2D" uid="uid://cykl0xkcof5u3" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00016.png" id="18_fjqyj"]
+[ext_resource type="Texture2D" uid="uid://crdpc7blcvxve" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00017.png" id="19_xf08l"]
+[ext_resource type="Texture2D" uid="uid://bd3jpy0f6mg7m" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00018.png" id="20_cvhre"]
+[ext_resource type="Texture2D" uid="uid://thltnk1cd40j" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00019.png" id="21_io0ua"]
+[ext_resource type="Texture2D" uid="uid://cg3uxys2mdlu" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00020.png" id="22_qlm3r"]
+[ext_resource type="Texture2D" uid="uid://dsn488rwry7sf" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00021.png" id="23_7q87v"]
+[ext_resource type="Texture2D" uid="uid://bpitad162nrq4" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00022.png" id="24_ms0na"]
+[ext_resource type="Texture2D" uid="uid://cloyiitbfiohc" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00023.png" id="25_kdntt"]
+[ext_resource type="Texture2D" uid="uid://v7n3mjn78bel" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00024.png" id="26_gr58j"]
+[ext_resource type="Texture2D" uid="uid://fmh66uwhj1k6" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00025.png" id="27_1a4rx"]
+[ext_resource type="Texture2D" uid="uid://0al07ea66ikp" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00026.png" id="28_8e5wr"]
+[ext_resource type="Texture2D" uid="uid://bnnygxd1byad3" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00027.png" id="29_vxx0o"]
+[ext_resource type="Texture2D" uid="uid://xrtxaycmw8e1" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00028.png" id="30_ljeq5"]
+[ext_resource type="Texture2D" uid="uid://6pav15dnr8jy" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00029.png" id="31_yg8vs"]
+[ext_resource type="Texture2D" uid="uid://cq5415lwxay8y" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00030.png" id="32_bnbnt"]
+[ext_resource type="Texture2D" uid="uid://b4imkcihp1vjg" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00031.png" id="33_pcxbs"]
+[ext_resource type="Texture2D" uid="uid://c6l2qe8q18te8" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00032.png" id="34_dbysw"]
+[ext_resource type="Texture2D" uid="uid://dlv8ftg2f2skm" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00033.png" id="35_3wpoi"]
+[ext_resource type="Texture2D" uid="uid://bt45c422vdefw" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00034.png" id="36_fye3l"]
+[ext_resource type="Texture2D" uid="uid://dtc8tap6k2ypa" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00035.png" id="37_il35a"]
+[ext_resource type="Texture2D" uid="uid://1u4u65mpfi17" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00036.png" id="38_1hd81"]
+[ext_resource type="Texture2D" uid="uid://5skimtf8w2wg" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00037.png" id="39_fbo61"]
+[ext_resource type="Texture2D" uid="uid://cfoigmurp5rkm" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00038.png" id="40_p4w02"]
+[ext_resource type="Texture2D" uid="uid://cysr7s7fo4ubw" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00039.png" id="41_g0rse"]
+[ext_resource type="Texture2D" uid="uid://djic1cgecmw8e" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00040.png" id="42_u2v63"]
+[ext_resource type="Texture2D" uid="uid://daean528me2bx" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00041.png" id="43_woc4n"]
+[ext_resource type="Texture2D" uid="uid://ds7obixehjqy3" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00042.png" id="44_44dlg"]
+[ext_resource type="Texture2D" uid="uid://bllr2le18e750" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00043.png" id="45_1ftqg"]
+[ext_resource type="Texture2D" uid="uid://ctptoyqnkgehv" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00044.png" id="46_y07a5"]
+[ext_resource type="Texture2D" uid="uid://d07762n8ssogs" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00045.png" id="47_no5qv"]
+[ext_resource type="Texture2D" uid="uid://db8yy0q3bylie" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00046.png" id="48_j7ggg"]
+[ext_resource type="Texture2D" uid="uid://iun08xkebodr" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00047.png" id="49_n5ypq"]
+[ext_resource type="Texture2D" uid="uid://cfb1dygi314kj" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00048.png" id="50_svhxg"]
+[ext_resource type="Texture2D" uid="uid://bktxoqhq6lltk" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00049.png" id="51_5i48j"]
+[ext_resource type="Texture2D" uid="uid://dunew6nq40ao" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00050.png" id="52_11w85"]
+[ext_resource type="Texture2D" uid="uid://7d7p5u3yg2yq" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00051.png" id="53_ndnj7"]
+[ext_resource type="Texture2D" uid="uid://bk1f3w6bofeeo" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00052.png" id="54_rrvlr"]
+[ext_resource type="Texture2D" uid="uid://ck8nmhy03dxjc" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00053.png" id="55_fxsjd"]
+[ext_resource type="Texture2D" uid="uid://tlxgnw64yvln" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00054.png" id="56_ahupt"]
+[ext_resource type="Texture2D" uid="uid://w4orhmp61h35" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00055.png" id="57_qnm87"]
+[ext_resource type="Texture2D" uid="uid://nhptcw6ppb2y" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00056.png" id="58_xcw75"]
+[ext_resource type="Texture2D" uid="uid://nrcdx33k5vem" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00057.png" id="59_0ooh8"]
+[ext_resource type="Texture2D" uid="uid://bqc54312q16ea" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00058.png" id="60_k1hob"]
+[ext_resource type="Texture2D" uid="uid://di5umne878ig4" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00059.png" id="61_77j4j"]
+[ext_resource type="Texture2D" uid="uid://c3guttv40coa" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00060.png" id="62_5n5vn"]
+[ext_resource type="Texture2D" uid="uid://7qpkk7ur6il1" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00061.png" id="63_wrw2v"]
+[ext_resource type="Texture2D" uid="uid://cwy5p31dfv25l" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00062.png" id="64_rfsnw"]
+[ext_resource type="Texture2D" uid="uid://c6iioi4r8ooaj" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00063.png" id="65_olmqv"]
+[ext_resource type="Texture2D" uid="uid://b4qcyytjntn6i" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00064.png" id="66_juqn8"]
+[ext_resource type="Texture2D" uid="uid://b0f34s0p0wi5c" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00065.png" id="67_by6ci"]
+[ext_resource type="Texture2D" uid="uid://b75v16ygtaga6" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00066.png" id="68_hhyc0"]
+[ext_resource type="Texture2D" uid="uid://cymtfxuiwl450" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00067.png" id="69_blbgf"]
+[ext_resource type="Texture2D" uid="uid://bsm2gfnkvrhqm" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00068.png" id="70_bhaeb"]
+[ext_resource type="Texture2D" uid="uid://bdwm3qx3s2gx0" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00069.png" id="71_1sl1p"]
+[ext_resource type="Texture2D" uid="uid://cnlmxbaaajgr4" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00070.png" id="72_48rp2"]
+[ext_resource type="Texture2D" uid="uid://bxws4py5p0wjf" path="res://Art/Objects/Treasure/Coin/Copper/Coin_00071.png" id="73_oa44f"]
+
+[sub_resource type="Animation" id="Animation_15ow5"]
+resource_name = "Float"
+length = 3.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.5, 3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -25), Vector2(0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nqa6g"]
+_data = {
+"Float": SubResource("Animation_15ow5")
+}
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pa0rv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_lbtn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ybsvc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xfue0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_6ia2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lthdu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fat40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_t7p47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_pxda2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_a1c1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1wgti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jkgta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_6xp63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_aqwlu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_dpchi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pd115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qa1a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fjqyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xf08l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_cvhre")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_io0ua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_qlm3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_7q87v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ms0na")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_kdntt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_gr58j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1a4rx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_8e5wr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vxx0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ljeq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_yg8vs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_bnbnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_pcxbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_dbysw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_3wpoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_fye3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_il35a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_1hd81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_fbo61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_p4w02")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_g0rse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_u2v63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_woc4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_44dlg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1ftqg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_y07a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_no5qv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_j7ggg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_n5ypq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_svhxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_5i48j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_11w85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_ndnj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_rrvlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_fxsjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_ahupt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_qnm87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_xcw75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_0ooh8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_k1hob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_77j4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_5n5vn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_wrw2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_rfsnw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_olmqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_juqn8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_by6ci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_hhyc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_blbgf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_bhaeb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_1sl1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_48rp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_oa44f")
+}],
+"loop": true,
+"name": &"Rot",
+"speed": 24.0
+}]
+
+[node name="copper coin" instance=ExtResource("1_wfmg6")]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1"]
+libraries = {
+"": SubResource("AnimationLibrary_nqa6g")
+}
+autoplay = "Float"
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="2"]
+position = Vector2(0, -0.14705)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_pa0rv")
+animation = &"Rot"
+frame = 43
+frame_progress = 0.629082
